@@ -24,3 +24,4 @@
 
 # print(f"El total del producto {product1[0]} es: {product1[1] * product1[2]}")
 
+print("Hola mundo")
