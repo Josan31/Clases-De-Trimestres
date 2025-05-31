@@ -35,12 +35,12 @@
 #     print("Está debajo de 10")
     
 # print("Ejemplo N° [4] Elif")
-
 # num1 = int(input("Ingrese un número: "))
 # num2 = int(input("Ingrese otro número: "))
 # result = num1 * num2
 # print(f"El resultado es: {result}")
 
+# print("Ejemplo N° [5] Elif")
 # if result <=99:
 #     print("El resultado es menor o igual a 99")
 # elif result >=100:
@@ -51,6 +51,19 @@
 #     print("El resultado es mayor o igual a 100000")
 # else:
 #     print("El número ingresado no es válido o coherente.")
-            
 
-    
+# print("Ejemplo N° [6] Elif")
+fecha = int(input("Ingrese su año de naciminento: "))
+
+if fecha >=1920 and fecha <=1940:
+    print("perteneces a la generación Silenciosa")
+elif fecha >=1946 and fecha <=1964:
+    print("Perteneces a la generación Baby Boomer")
+elif fecha >=1965 and fecha <=1979:
+    print("Perteneces a la generación X")
+elif fecha >=1980 and fecha <=2000:
+    print("Perteneces a la generación Y")
+elif fecha >=2001 and fecha <=2010:
+    print("Perteneces a la generación Z")
+else:
+    print("Ingresa un año correcto o coherente")
