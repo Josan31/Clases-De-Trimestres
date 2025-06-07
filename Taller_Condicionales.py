@@ -2,7 +2,7 @@
 
 # print("EJERCICIOS CON CONDICIONALES Y OPERACIONES MATEMÁTICAS")
 
-# print("Ejemplo N° [1]:")
+# print("EJERCICIO N° [1]:")
 # num1 = float(input("Ingrese un número: "))
 # if num1 ==0:
 #     print("Este número es 0")
@@ -13,7 +13,7 @@
 # else:
 #     print("Dato incorrecto o letra.")
 
-# print("Ejemplo N° [2]:")
+# print("EJERCICIO N° [2]:")
 # num2 = int(input("Ingrese un número: "))
 # num3 = int(input("Ingrese un segundo número: "))
 # if num2 > num3:
@@ -25,7 +25,7 @@
 # else:
 #     print("Ingresa un dato correcto.")
     
-# print("Ejemplo N° [3]:")
+# print("EJERCICIO N° [3]:")
 # num4 = int(input("Ingresa un número: "))
 # mitad = num4 // 2 
 # doble = mitad * 2
@@ -36,7 +36,7 @@
 # else:
 #     print("Ingresa un dato correcto")
 
-# print("Ejemplo N° [4]:")
+# print("EJERCICIO N° [4]:")
 # num5 = int(input("Ingresa un número: "))
 # if num5 >= 10 and num5 <= 20:
 #     print("El número se encuentra entre 10 y 20")
@@ -45,7 +45,7 @@
 # else:
 #     print("Ingresa un dato correcto")
 
-# print("Ejemplo N° [5]:")
+# print("EJERCICIO N° [5]:")
 # num6 = int(input("Ingresa un número: "))
 # num7 = int(input("Ingresa otro número: "))
 # num8 = int(input("Ingresa un último número: "))
@@ -102,7 +102,7 @@
 # print("Ejemplo N° [10]:")
 # numero1 = int(input("Ingresa un número: "))
 # divisor1 = int(input("Ingresa un divisor: "))
-# divisor2 = int(input("Ingresa el segundo número: "))
+# divisor2 = int(input("Ingresa otro divisor: "))
 
 # if numero1 % divisor1 and numero1 % divisor2 ==0:
 #     print(f"El número {numero1} es divisible entre {divisor1} y {divisor2}")
@@ -148,8 +148,21 @@
 # if lista4[-1] == "Marta":
 #     print("Nombre correcto")
 # elif lista4[-1] != "Marta":
-#     print("Nombre incorrecto")
+#     print("Nombre diferente")
 # else:
 #     print("Dato incorrecto")
     
-print("Ejemplo N° [15]:")
+# print("Ejemplo N° [15]:")
+# lista5 = [input("Ingresa el primer color: ").lower(), input("Ingresa el segundo color: ").lower(), input("Ingresa el tercer color: ").lower()]
+
+# if lista5[1] == "azul":
+#     lista5[1] = input("Ingrese el color deseado para reemplazar por el azul: ")
+#     print(lista5)
+# elif lista5[1] != "azul":
+#     print("El segundo color no es azul, no requiere cambios")
+# else:
+#     print("Ingresa un dato correcto")
+
+# print("EJERCICIOS CON TUPLAS (CON CONDICIONALES)")
+
+print("Ejemplo N° [16]:")
