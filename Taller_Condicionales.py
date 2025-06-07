@@ -113,11 +113,43 @@
 
 # print("Ejemplo N° [11]:")
 # lista1 = [int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un cuarto número: ")), int(input("Ingresa un quinto número: "))]
-
 # if lista1[2] > 10:
-#     print(f"El número {lista1[2]} es mayor a 10")
-# elif lista1[2] <=10:
-#     print(f"El número {lista1[2]} es menor o igual a 10")
+#     print(f"El tercer número {lista1[2]} es mayor a 10")
+# elif lista1[2] < 10:
+#     print(f"El tercer número {lista1[2]} es menor o igual a 10")
+# elif lista1[2] == 10:
+#     print(f"El tercer número {lista1[2]} es igual a 10")
 # else:
 #     print("Dato incorrecto")
 
+# print("Ejemplo N° [12]:")
+# lista2 = [3, 5, 7, 9]
+# if lista2[2]:
+#     print("El número 7 se encuentra en la lista")
+# else: 
+#     print("El número 7 no está en la lista")
+
+# # print("Ejemplo N° [13]:")
+# lista3 = [4, 6, 2, 8]
+# suma = lista3[0] + lista3[1]
+# if suma >10:
+#     print("Suma alta")
+# elif suma <10:
+#     print("Suma baja")
+# elif suma ==10:
+#     print("La suma es igual a 10")
+# else:
+#     print("Dato incorrecto")
+
+# print("Ejemplo N° [14]:")
+# lista4 = ["Ana", "Luis", "Pedro", "Marta"]
+# print(f"El último nombre es {lista4[-1]}")
+
+# if lista4[-1] == "Marta":
+#     print("Nombre correcto")
+# elif lista4[-1] != "Marta":
+#     print("Nombre incorrecto")
+# else:
+#     print("Dato incorrecto")
+    
+print("Ejemplo N° [15]:")
