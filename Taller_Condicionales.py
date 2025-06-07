@@ -167,4 +167,61 @@
 
 # print("EJERCICIOS CON TUPLAS (CON CONDICIONALES)")
 
+# print("------------------------------------------------------")
 # print("EJERCICIO N° [16]:")
+# tupla1 = (5, 8, 12, 20)
+# if tupla1[0] < tupla1[3]:
+#     print("Orden ascente")
+# elif tupla1[0] > tupla1[3]:
+#     print("Orden descente")
+# else:
+#     print("Dato incorrecto o incoherente")
+# print("------------------------------------------------------")
+# print("EJERCICIO N° [17]:")
+# tupla2 = (25, 32, 28)
+# if tupla2[1] >30:
+#     print("Edad mayor a 30")
+# elif tupla2[1] <=30:
+#     print("Edad menor o igual a 30")
+# else:
+#     print("ingresa un dato correcto")
+# print("------------------------------------------------------")
+# print("EJERCICIO N° [18]:")
+# tupla3 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")), int(input("Ingrese un último número: ")),)
+# lista1 = list(tupla3)
+# print(lista1)
+# if lista1[1] == 2:
+#     lista1[1] = 10
+# else:
+#     print("el segundo número no es un 2 por lo cual no se hace cambio")
+# tupla1 = tuple(lista1)
+# print(tupla1)
+# print("------------------------------------------------------")
+# print("EJERCICIO N° [19]:")
+# tupla5 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")))
+# lista2 = list(tupla5)
+# if lista2[1] > 5:
+#     print("Coordenada alta")
+# elif lista2[1] == 5:
+#     print("El número es igual a 5")
+# elif lista2[1] != 5:
+#     print("Coordenada baja")
+# else:
+#     print("Dato incorrecto")
+# print("------------------------------------------------------")
+# print("EJERCICIO N° [20]:")
+# tupla6 = (3, 4) 
+# tupla7 = (3, 5)
+
+# if tupla6 == tupla7:
+#     print("Las tuplas son iguales")
+# elif tupla6 != tupla7:
+#     print("Las tuplas son distintas")
+# else:
+#     print("Error")    
+# print("------------------------------------------------------")
+
+# print("EJERCICIOS CON DICCIONARIOS (CON CONDICIONALES)")
+
+
+print("EJERCICIO N° [21]:")
