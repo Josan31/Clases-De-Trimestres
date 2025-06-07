@@ -223,5 +223,16 @@
 
 # print("EJERCICIOS CON DICCIONARIOS (CON CONDICIONALES)")
 
+# print("------------------------------------------------------")
+# print("EJERCICIO N° [21]:")
+# dic1 = {"Nombre": "Juan", "Edad": 17}
+# if dic1["Edad"] >= 18:
+#     print("Adulto")
+# elif dic1["Edad"] <18:
+#     print("Menor de edad")
+# else:
+#     print("Dato incorrecto")
+# print("------------------------------------------------------")
+print("EJERCICIO N° [22]:")
 
-print("EJERCICIO N° [21]:")
+
