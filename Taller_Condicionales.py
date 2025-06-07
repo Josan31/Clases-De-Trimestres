@@ -124,8 +124,14 @@
 #     print("Dato incorrecto")
 # print("------------------------------------------------------")
 # print("EJERCICIO N° [12]:")
-# lista2 = [3, 5, 7, 9]
-# if lista2[2]:
+# lista2 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
+# if lista2[0] == 7:
+#     print("El número 7 se encuentra en la lista")
+# elif lista2[1] == 7:
+#     print("El número 7 se encuentra en la lista")
+# elif lista2[2] == 7:
+#     print("El número 7 se encuentra en la lista")
+# elif lista2[3] == 7:
 #     print("El número 7 se encuentra en la lista")
 # else: 
 #     print("El número 7 no está en la lista")
@@ -233,6 +239,13 @@
 # else:
 #     print("Dato incorrecto")
 # print("------------------------------------------------------")
-print("EJERCICIO N° [22]:")
+# print("EJERCICIO N° [22]:")
+# dic2 = {"Nombre": input("Ingrese su nombre: "), "Edad": int(input("Ingrese su edad: "))}
+# if dic2["Edad"] >= 18:
+#     dic2["Edad"] = 21
+# print(f"los datos son {dic2}")
+# print("------------------------------------------------------")
+print("EJERCICIO N° [23]:")
 
-
+    
+    
