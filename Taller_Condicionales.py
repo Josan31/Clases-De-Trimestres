@@ -312,9 +312,17 @@
 #     print("No se encontró un precio, se asignó: No hay precio.")
 # print(f"Los datos del producto son: {dic3}")
     
-print("\n------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-print("\nEJERCICIO N° [25]:\n ")
+# print("\nEJERCICIO N° [25]:\n ")
+# dic4 = {"Pan": float(input("Ingrese el precio: ")), "Leche":  float(input("Ingresa el precio: "))}
+# if "Pan" in dic4:
+#     print(f"El precio del pan es {dic4["Pan"]}$")
+# else:
+#     print("Producto no disponible.")
+    
+# print("\n------------------------------------------------------")
 
+# print("FIN DEL PROGRAMA.")
     
     
