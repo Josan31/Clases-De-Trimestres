@@ -70,85 +70,98 @@
 # else:
 #     print("Ingresa un dato correcto.")
     
-print("\n------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-print("EJERCICIO N° [6]:")
-num9 = float(input("Ingresa el precio $ del producto: "))
-if num9 > 100:
-    descuento = num9 * 0.10
-    precio_final = num9 - descuento
-    print(f"Tu precio con un 10% de decuento es {precio_final}$") 
-elif num9 < 100:
-    print("No se aplica un descuento")
-else: 
-    print("Ingresa un dato correcto")
+# print("\nEJERCICIO N° [6]:\n ")
+# num9 = float(input("Ingresa el precio $ del producto: "))
+# if num9 > 100:
+#     descuento = num9 * 0.10
+#     precio_final = num9 - descuento
+#     print(f"Tu precio de {num9}$ con un 10% de decuento es {precio_final}$") 
+# elif num9 < 100:
+#     print(f"Al precio {num9} No se le aplica un descuento porque es menor a 100$.")
+# else: 
+#     print("Ingresa un dato correcto.")
 
-print("\n------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-# print("EJERCICIO N° [7]:")
+# print("\nEJERCICIO N° [7]:\n ")
 # edad = int(input("Ingresa tu edad: "))
-# if edad >=18 and edad <=120:
-#     print("Usted puede votar")
+# if edad >=18 and edad <=122:
+#     print(f"Usted tiene {edad} años, si puede votar.")
 # elif edad <=17 and edad >=0:
-#     print("Usted no puede votar")
+#     print(f"Usted tiene {edad} años, por lo cual no puede votar.")
 # else:
-#     print("Ingresa un dato o edad lógica")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [8]:")
+#     print("Ingresa un dato o edad lógica.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [8]:\n ")
 # precio1 = float(input("Ingresa un precio $: "))
 # tipo_cliente = input("Ingresa que tipo de cliente eres; VIP o normal: ")
 # if tipo_cliente == "normal":
-#     print("No se te aplica un descuento")
+#     print(f"Al ser cliente {tipo_cliente} no se te aplica un descuento.")
 # elif tipo_cliente == "VIP":
 #     descuento = precio1 * 0.20
 #     precio_final2 = precio1 - descuento
-#     print(f"Por ser VIP se te aplica un descuento del 20%. Tu precio con el descuento es {precio_final2}$")
+#     print(f"Por ser {tipo_cliente} se te aplica un descuento del 20%. Tu precio con el descuento es {precio_final2}$")
 # else:
-#     print("Escribe de forma correcta el tipo de cliente que eres o dato incorrecto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [9]:")
+#     print("Escribe de forma correcta el tipo de cliente que eres.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [9]:\n ")
 # num10 = int(input("Ingresa un número: "))
 # if num10 % 5 == 0 and num10 % 3 == 0:
-#     print("Es múltiplo de 5 y 3")
+#     print(f"El número {num10} es múltiplo de 5 y 3.")
 # else:
-#     print("No es múltiplo de ambos")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [10]:")
+#     print(f"El número {num10} no es múltiplo de ambos.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [10]:\n ")
 # numero1 = int(input("Ingresa un número: "))
 # divisor1 = int(input("Ingresa un divisor: "))
 # divisor2 = int(input("Ingresa otro divisor: "))
-
-# if numero1 % divisor1 and numero1 % divisor2 ==0:
+# if numero1 % divisor1 == 0 and numero1 % divisor2 ==0:
 #     print(f"El número {numero1} es divisible entre {divisor1} y {divisor2}")
 # else:
 #     print(f"El número {numero1} No es divisible entre {divisor1} y {divisor2}")
 
-# print("EJERCICIOS CON LISTAS (CON CONDICIONALES)")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [11]:")
+# print("\n-------------------------------------------------------\n")
+
+# print("-----> EJERCICIOS CON LISTAS (CON CONDICIONALES) <-----")
+
+# print("\n-------------------------------------------------------")
+
+# print("\nEJERCICIO N° [11]:\n ")
 # lista1 = [int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un cuarto número: ")), int(input("Ingresa un quinto número: "))]
 # if lista1[2] > 10:
-#     print(f"El tercer número {lista1[2]} es mayor a 10")
+#     print(f"El tercer número {lista1[2]} de la lista es mayor a 10.")
 # elif lista1[2] < 10:
-#     print(f"El tercer número {lista1[2]} es menor o igual a 10")
+#     print(f"El tercer número {lista1[2]} de la lista es menor a 10.")
 # elif lista1[2] == 10:
-#     print(f"El tercer número {lista1[2]} es igual a 10")
+#     print(f"El tercer número {lista1[2]} de la lista es igual a 10.")
 # else:
-#     print("Dato incorrecto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [12]:")
-# lista2 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
-# if lista2[0] == 7:
-#     print("El número 7 se encuentra en la lista")
-# elif lista2[1] == 7:
-#     print("El número 7 se encuentra en la lista")
-# elif lista2[2] == 7:
-#     print("El número 7 se encuentra en la lista")
-# elif lista2[3] == 7:
-#     print("El número 7 se encuentra en la lista")
-# else: 
-#     print("El número 7 no está en la lista")
-# print("------------------------------------------------------")
+#     print("Ingresa un dato correcto.")
+    
+print("\n------------------------------------------------------")
+
+print("EJERCICIO N° [12]:")
+lista2 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
+if lista2[0] == 7:
+    print("El número 7 se encuentra en la lista")
+elif lista2[1] == 7:
+    print("El número 7 se encuentra en la lista")
+elif lista2[2] == 7:
+    print("El número 7 se encuentra en la lista")
+elif lista2[3] == 7:
+    print("El número 7 se encuentra en la lista")
+else: 
+    print("El número 7 no está en la lista")
+
+print("------------------------------------------------------")
+
 # # print("EJERCICIO N° [13]:")
 # lista3 = [4, 6, 2, 8]
 # suma = lista3[0] + lista3[1]
