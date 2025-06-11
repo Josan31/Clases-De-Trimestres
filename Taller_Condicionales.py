@@ -2,76 +2,89 @@
 
 # print("EJERCICIOS CON CONDICIONALES Y OPERACIONES MATEMÁTICAS")
 
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [1]:")
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [1]:\n ")
 # num1 = float(input("Ingrese un número: "))
-# if num1 ==0:
-#     print("Este número es 0")
-# elif num1 >=0:
-#     print("Este número es positivo.")
-# elif num1 <=0:
-#     print("Este número es negativo.")
+# if num1 > 0:
+#     print(f"El número {num1} es positivo.")
+# elif num1 < 0:
+#     print(f"El número {num1} es negativo.")
+# elif num1 == 0:
+#     print(f"El número {num1} es equivalente a 0.")
 # else:
-#     print("Dato incorrecto o letra.")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [2]:")
+#     print("Ingresa un dato incorrecto.")
+
+# print("\n------------------------------------------------------") 
+
+# print("\nEJERCICIO N° [2]:\n ")
 # num2 = int(input("Ingrese un número: "))
-# num3 = int(input("Ingrese un segundo número: "))
+# num3 = int(input("Ingrese otro número: "))
 # if num2 > num3:
-#     print(f"El número {num2} es mayor, mientras que el número {num3} es menor ")
+#     print(f"El número {num2} es mayor, mientras que el número {num3} es menor.")
 # elif num3 > num2:
-#     print(f"El número {num3} es mayor, mientras que el número {num2} es menor ")
+#     print(f"El número {num3} es mayor, mientras que el número {num2} es menor.")
 # elif num2 == num3:
-#     print(f"el número {num2} y el número {num3} son iguales ")
+#     print(f"el número {num2} y el número {num3} son iguales.")
 # else:
 #     print("Ingresa un dato correcto.")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [3]:")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [3]:\n ")
 # num4 = int(input("Ingresa un número: "))
 # mitad = num4 // 2 
 # doble = mitad * 2
 # if doble == num4:
-#     print("El número es par") 
+#     print(f"El número {num4} es par.") 
 # elif doble != num4:
-#     print("El número es impar")
+#     print(f"El número {num4} es impar.")
 # else:
-#     print("Ingresa un dato correcto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [4]:")
+#     print("Ingresa un dato correcto.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [4]:\n ")
 # num5 = int(input("Ingresa un número: "))
 # if num5 >= 10 and num5 <= 20:
-#     print("El número se encuentra entre 10 y 20")
+#     print(f"El número {num5} se encuentra entre 10 y 20.")
 # elif num5 >=20 or num5 <=10:
-#     print("El número no está entre 10 y 20")
+#     print(f"El número {num5} no está entre 10 y 20.")
 # else:
-#     print("Ingresa un dato correcto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [5]:")
+#     print("Ingresa un dato correcto.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [5]:\n ")
 # num6 = int(input("Ingresa un número: "))
 # num7 = int(input("Ingresa otro número: "))
 # num8 = int(input("Ingresa un último número: "))
 # if num6 > num7 and num6 > num8:
-#     print(f"El número {num6} es el mayor de todos.")
+#     print(f"El número {num6} es mayor que {num7} y {num8}.")
 # elif num7 > num6 and num7 > num8:
-#     print(f"El número {num7} es el mayor de todos.")
+#     print(f"El número {num7} es mayor que {num6} y {num8}.")
 # elif num8 > num6 and num8 > num7:
-#     print(f"El número {num8} es el mayor de todos.")
+#     print(f"El número {num8} es mayor que {num6} y {num7}.")
 # elif num6 == num7 and num8 == num7:
-#     print("Todos los números son iguales")
+#     print(f"Los números {num6}, {num7} y {num8} son iguales.")
 # else:
-#     print("Ingresa un dato correcto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [6]:")
-# num9 = float(input("Ingresa el precio $ del producto: "))
-# if num9 > 100:
-#     descuento = num9 * 0.10
-#     precio_final = num9 - descuento
-#     print(f"Tu precio con un 10% de decuento es {precio_final}$") 
-# elif num9 < 100:
-#     print("No se aplica un descuento")
-# else: 
-#     print("Ingresa un dato correcto")
-# print("------------------------------------------------------")
+#     print("Ingresa un dato correcto.")
+    
+print("\n------------------------------------------------------")
+
+print("EJERCICIO N° [6]:")
+num9 = float(input("Ingresa el precio $ del producto: "))
+if num9 > 100:
+    descuento = num9 * 0.10
+    precio_final = num9 - descuento
+    print(f"Tu precio con un 10% de decuento es {precio_final}$") 
+elif num9 < 100:
+    print("No se aplica un descuento")
+else: 
+    print("Ingresa un dato correcto")
+
+print("\n------------------------------------------------------")
+
 # print("EJERCICIO N° [7]:")
 # edad = int(input("Ingresa tu edad: "))
 # if edad >=18 and edad <=120:
@@ -245,7 +258,7 @@
 #     dic2["Edad"] = 21
 # print(f"los datos son {dic2}")
 # print("------------------------------------------------------")
-print("EJERCICIO N° [23]:")
+# print("EJERCICIO N° [23]:")
 
     
     
