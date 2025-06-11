@@ -293,9 +293,28 @@
 #     print(f"Eres mayor de edad, asi que tu edad ahora es 21.")
 # print(f"los datos son: {dic2}.")
 
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [23]:\n ")
+# dic2 = {"Nombre": input("Ingresa tu nombre: ").capitalize()}
+# if "Ciudad" not in dic2:
+#     dic2["Ciudad"] = "Bogota"
+# print(f"Los datos finales son: {dic2}.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [24]:\n ")
+# dic3 = {"Producto": input("Ingrese su producto: ").capitalize(), "Precio":  float(input("Ingresa el precio: "))}
+# if "Precio" in dic3:
+#     print(f"El precio es: {dic3["Precio"]}$.")
+# else:
+#     dic3["Precio"] = "No hay precio."
+#     print("No se encontró un precio, se asignó: No hay precio.")
+# print(f"Los datos del producto son: {dic3}")
+    
 print("\n------------------------------------------------------")
 
-print("EJERCICIO N° [23]:")
+print("\nEJERCICIO N° [25]:\n ")
 
     
     
