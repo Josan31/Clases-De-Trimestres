@@ -227,64 +227,75 @@
 # else:
 #     print("ingresa un dato correcto.")
 
-print("\n------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-print("\nEJERCICIO N° [18]:\n ")
-tupla3 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")), int(input("Ingrese un último número: ")),)
-lista1 = list(tupla3)
-print(lista1)
-if lista1[1] == 2:
-    lista1[1] = 10
-else:
-    print("el segundo número no es un 2 por lo cual no se hace cambio")
-tupla1 = tuple(lista1)
-print(tupla1)
+# print("\nEJERCICIO N° [18]:\n ")
+# tupla3 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")), int(input("Ingrese un último número: ")))
+# lista1 = list(tupla3)
+# print(lista1)
+# if lista1[1] == 2:
+#     lista1[1] = 10
+#     print(f"Como el segundo número de la lista es igual a 2, se reemplazara por un 10.")
+# else:
+#     print("el segundo número no es un 2 por lo cual no se hace cambio.")
+# tupla2 = tuple(lista1)
+# print(tupla2)
 
-print("\n------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-# print("EJERCICIO N° [19]:")
+# print("\nEJERCICIO N° [19]:\n ")
 # tupla5 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")))
 # lista2 = list(tupla5)
 # if lista2[1] > 5:
-#     print("Coordenada alta")
+#     print(f"El segundo valor es: {lista2[1]}. Este es  mayor a 5. Coordenada alta.")
 # elif lista2[1] == 5:
-#     print("El número es igual a 5")
+#     print(f"El segundo valor es: {lista2[1]}. Este es igual a 5.")
 # elif lista2[1] != 5:
-#     print("Coordenada baja")
+#     print(f"El segundo valor es: {lista2[1]}. Este es  menor a 5. Coordenada baja.")
 # else:
-#     print("Dato incorrecto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [20]:")
-# tupla6 = (3, 4) 
-# tupla7 = (3, 5)
+#     print("Dato incorrecto.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [20]:\n ")
+# tupla6 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: "))) 
+# print("-------------------")
+# tupla7 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")))
 
 # if tupla6 == tupla7:
-#     print("Las tuplas son iguales")
+#     print(f"Los datos de las tuplas {tupla6} y {tupla7} son iguales.")
 # elif tupla6 != tupla7:
-#     print("Las tuplas son distintas")
+#     print(f"Los datos de las tuplas {tupla6} y {tupla7} son distintas.")
 # else:
-#     print("Error")    
-# print("------------------------------------------------------")
+#     print("Dato inocrrecto.")    
+
+# print("\n------------------------------------------------------\n")
 
 # print("EJERCICIOS CON DICCIONARIOS (CON CONDICIONALES)")
 
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [21]:")
-# dic1 = {"Nombre": "Juan", "Edad": 17}
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [21]:\n ")
+# dic1 = {"Nombre": input("Ingresa tu nombre: ").capitalize(), "Edad": int(input("Ingresa tu edad: "))}
 # if dic1["Edad"] >= 18:
-#     print("Adulto")
+#     print(f"{dic1["Nombre"]}, Tu edad es de {dic1["Edad"]} años. Eres adulto.")
 # elif dic1["Edad"] <18:
-#     print("Menor de edad")
+#     print(f"{dic1["Nombre"]}, Tu edad es de {dic1["Edad"]} años. Eres menor de edad.")
 # else:
-#     print("Dato incorrecto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [22]:")
-# dic2 = {"Nombre": input("Ingrese su nombre: "), "Edad": int(input("Ingrese su edad: "))}
+#     print("Dato incorrecto.")
+    
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [22]:\n ")
+# dic2 = {"Nombre": input("Ingrese su nombre: ").capitalize(), "Edad": int(input("Ingrese su edad: "))}
 # if dic2["Edad"] >= 18:
 #     dic2["Edad"] = 21
-# print(f"los datos son {dic2}")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [23]:")
+#     print(f"Eres mayor de edad, asi que tu edad ahora es 21.")
+# print(f"los datos son: {dic2}.")
+
+print("\n------------------------------------------------------")
+
+print("EJERCICIO N° [23]:")
 
     
     
