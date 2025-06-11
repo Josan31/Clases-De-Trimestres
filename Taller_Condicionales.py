@@ -130,7 +130,7 @@
 
 # print("\n-------------------------------------------------------\n")
 
-# print("-----> EJERCICIOS CON LISTAS (CON CONDICIONALES) <-----")
+# print("EJERCICIOS CON LISTAS (CON CONDICIONALES)")
 
 # print("\n-------------------------------------------------------")
 
@@ -145,90 +145,103 @@
 # else:
 #     print("Ingresa un dato correcto.")
     
-print("\n------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-print("EJERCICIO N° [12]:")
-lista2 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
-if lista2[0] == 7:
-    print("El número 7 se encuentra en la lista")
-elif lista2[1] == 7:
-    print("El número 7 se encuentra en la lista")
-elif lista2[2] == 7:
-    print("El número 7 se encuentra en la lista")
-elif lista2[3] == 7:
-    print("El número 7 se encuentra en la lista")
-else: 
-    print("El número 7 no está en la lista")
+# print("\nEJERCICIO N° [12]:\n ")
+# lista2 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
+# if lista2[0] == 7:
+#     print("El número 7 se encuentra en la lista.")
+# elif lista2[1] == 7:
+#     print("El número 7 se encuentra en la lista.")
+# elif lista2[2] == 7:
+#     print("El número 7 se encuentra en la lista.")
+# elif lista2[3] == 7:
+#     print("El número 7 se encuentra en la lista.")
+# else: 
+#     print("El número 7 no está en la lista.")
 
-print("------------------------------------------------------")
+# print("\n------------------------------------------------------")
 
-# # print("EJERCICIO N° [13]:")
-# lista3 = [4, 6, 2, 8]
+# print("\nEJERCICIO N° [13]:\n ")
+# lista3 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
 # suma = lista3[0] + lista3[1]
-# if suma >10:
-#     print("Suma alta")
+# if suma >10: 
+#     print(f"La suma entre los números {lista3[0]} y {lista3[1]} es alta.")
 # elif suma <10:
-#     print("Suma baja")
+#     print(f"La suma entre los números {lista3[0]} y {lista3[1]} es baja.")
 # elif suma ==10:
-#     print("La suma es igual a 10")
+#     print("La suma es igual a 10.")
 # else:
-#     print("Dato incorrecto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [14]:")
-# lista4 = ["Ana", "Luis", "Pedro", "Marta"]
+#     print("Dato incorrecto.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [14]:\n ")
+# lista4 = [input("Ingresa un nombre: ").capitalize(), input("Ingresa otro nombre: ").capitalize(), input("Ingresa un tercer nombre: ").capitalize(), input("Ingresa un último nombre: ").capitalize()]
+# print(f"Tu lista es: {lista4}")
 # print(f"El último nombre es {lista4[-1]}")
 
 # if lista4[-1] == "Marta":
-#     print("Nombre correcto")
+#     print("Nombre correcto, acceso autorizado.")
 # elif lista4[-1] != "Marta":
-#     print("Nombre diferente")
+#     print("Nombre diferente, acceso denegado.")
 # else:
-#     print("Dato incorrecto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [15]:")
-# lista5 = [input("Ingresa el primer color: ").lower(), input("Ingresa el segundo color: ").lower(), input("Ingresa el tercer color: ").lower()]
+#     print("Dato incorrecto.")
 
-# if lista5[1] == "azul":
-#     lista5[1] = input("Ingrese el color deseado para reemplazar por el azul: ")
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [15]:\n ")
+# lista5 = [input("Ingresa el primer color: ").capitalize(), input("Ingresa el segundo color: ").capitalize(), input("Ingresa el tercer color: ").capitalize()]
+
+# if lista5[1] == "Azul":
+#     lista5[1] = input(f"El segundo color es {lista5[1]}, ingrese el color deseado para reemplazar por el azul: ")
 #     print(lista5)
 # elif lista5[1] != "azul":
-#     print("El segundo color no es azul, no requiere cambios")
+#     print(f"El segundo color no es azul, es {lista5[1]}, por lo cual no requiere cambios.")
 # else:
-#     print("Ingresa un dato correcto")
-# print("------------------------------------------------------")
+#     print("Ingresa un dato correcto.")
+    
+# print("\n------------------------------------------------------\n")
 
 # print("EJERCICIOS CON TUPLAS (CON CONDICIONALES)")
 
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [16]:")
-# tupla1 = (5, 8, 12, 20)
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [16]:\n ")
+# tupla1 = (int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un cuarto número: ")))
 # if tupla1[0] < tupla1[3]:
-#     print("Orden ascente")
+#     print(f"El valor {tupla1[0]} es menor que {tupla1[3]}, Orden ascente.")
 # elif tupla1[0] > tupla1[3]:
-#     print("Orden descente")
+#     print(f"El valor {tupla1[0]} es mayor que {tupla1[3]}, Orden descente.")
 # else:
-#     print("Dato incorrecto o incoherente")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [17]:")
-# tupla2 = (25, 32, 28)
+#     print("Dato incorrecto o incoherente.")
+
+# print("\n------------------------------------------------------")
+
+# print("\nEJERCICIO N° [17]:\n ")
+# tupla2 = (int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un último número: ")))
 # if tupla2[1] >30:
-#     print("Edad mayor a 30")
+#     print(f"El segundo valor: {tupla2[1]}, es mayor a 30. Por lo cual, tu edad es mayor a 30.")
 # elif tupla2[1] <=30:
-#     print("Edad menor o igual a 30")
+#     print(f"El segundo valor: {tupla2[1]}, es menor o igual a 30. Por lo cual, tu edad es menor a 30.")
 # else:
-#     print("ingresa un dato correcto")
-# print("------------------------------------------------------")
-# print("EJERCICIO N° [18]:")
-# tupla3 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")), int(input("Ingrese un último número: ")),)
-# lista1 = list(tupla3)
-# print(lista1)
-# if lista1[1] == 2:
-#     lista1[1] = 10
-# else:
-#     print("el segundo número no es un 2 por lo cual no se hace cambio")
-# tupla1 = tuple(lista1)
-# print(tupla1)
-# print("------------------------------------------------------")
+#     print("ingresa un dato correcto.")
+
+print("\n------------------------------------------------------")
+
+print("\nEJERCICIO N° [18]:\n ")
+tupla3 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")), int(input("Ingrese un último número: ")),)
+lista1 = list(tupla3)
+print(lista1)
+if lista1[1] == 2:
+    lista1[1] = 10
+else:
+    print("el segundo número no es un 2 por lo cual no se hace cambio")
+tupla1 = tuple(lista1)
+print(tupla1)
+
+print("\n------------------------------------------------------")
+
 # print("EJERCICIO N° [19]:")
 # tupla5 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")))
 # lista2 = list(tupla5)
