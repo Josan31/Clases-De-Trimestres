@@ -3,7 +3,7 @@
 #     print("contador", contador)
 #     contador -= 1
 
-print("--------------------------------")
+print("")
 
 while True:
     texto = input("Escribe algo (o escribe salir para terminar): ")
