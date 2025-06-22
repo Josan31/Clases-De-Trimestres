@@ -1,47 +1,60 @@
 # ¿QUÉ ES EL FLUJO? 
 # El flujo es una forma de entender la sucesion de las instrucciones de un programa, estas instrucciones se ejecutan una depues de otra de forma ordenada y suelen tener el objetivo final de manipular informacion.
-print("--------------------------------------------------------------------------------")
+
 # ¿QUÉ ES UN DIAGRAMA DE FLUJO?
 # Expresan nuestros algoritmos en forma de diagrama mediante una representación gráfica basada en figuras geométricas que varían segun la estructura del código.
-print("--------------------------------------------------------------------------------")
+
 # CONDICIONALES 
 # Se utilizan los operadores relacionales (==, !, >, <, etc.) y para evaluar más de una condicón simultáneamente se utilizan los operadores lógicos (not, and, or). las condiconales se deifnnen mediante el uso de tres palabras claves reservadas: if, elif, else.
-print("-----------------------------------------")
+print("----------------------------------------------------")
+
 print("Ejemplo N° [1]")
 
-# solicito el nombre al usuario
-nombre = int(input("Ingrese su nombre: "))
-
-# solicito la edad al usuario
+# solicito nombre y edad al usuario
+nombre = input("Ingrese su nombre: ")
 edad = int(input("Ingrese su edad: "))
 
-# esta condicion se ejecuta si el usuario tiene más de 18 años
+# verifica si el usuario es mayor o igual a 18
 if edad >=18:
     print(f"{nombre}, Tienes {edad} años. Eres mayor de edad.")
-# si el usuario tiene una edad mayor a 0 y es menor de 18
-elif edad <18 and edad >0:
+    
+# verifica  si la edad está entre 1 y 17 años
+elif edad >0 and edad <18:
     print(f"{nombre}, Tienes {edad} años. Eres menor de edad.")
-# si el dato que el usuario ingrese es incorrecto
+    
+# si la edad es 0 o negativa, se considera un dato inválido
 else:
-    print("Dato incorrecto")
-print("-----------------------------------------")
+    print("Dato incorrecto: la edad no puede ser negativa o cero")
+    
+print("----------------------------------------------------")
+
 print("Ejemplo N° [2]")
 
+# solicito tres números reales al usuario
 a = float(input("Ingresa un numero: "))
 b = float(input("Ingresa otro número: "))
 c = float(input("Ingresa un último número: "))
+
+# verifica si 'a' es mayor que 'b' y 'c' es mayor que 'a'
 if a > b and c > a:
-    print(f"Ambas condiciones son verdaderas")
+    print(f"{a} es mayor que {b} y {c} mayor que {a}.")
 else: 
     print("Una de las condiciones es falsa")
-print("-----------------------------------------")
+    
+print("----------------------------------------------------")
+
 print("Ejemplo N° [3]")
+
+# solicito un número al usuario
 numero = float(input("Ingrese un número: "))
+
+# verifico si el número es mayor a 36
 if numero > 36:
-    print("El numero es grande.")
+    print(f"El número {numero} es grande.")
 else:
     print("El número es pequeño.")
-print("-----------------------------------------")
+    
+print("----------------------------------------------------")
 print("Ejemplo N° [4]")
 x = int(input("Ingrese un número: "))
 if x >10:
@@ -52,13 +65,13 @@ if x >10:
             print("Y tambien por encima de 30")
 else:
     print("Está debajo de 10")
-print("-----------------------------------------")
+print("----------------------------------------------------")
 print("Ejemplo N° [5]")
 num1 = int(input("Ingrese un número: "))
 num2 = int(input("Ingrese otro número: "))
 result = num1 * num2
 print(f"El resultado es: {result}")
-print("-----------------------------------------")
+print("----------------------------------------------------")
 print("Ejemplo N° [6]")
 if result <=99:
     print("El resultado es menor o igual a 99")
@@ -70,7 +83,7 @@ elif result >=100000:
     print("El resultado es mayor o igual a 100000")
 else:
     print("El número ingresado no es válido o coherente.")
-print("-----------------------------------------")
+print("----------------------------------------------------")
 print("Ejemplo N° [7]")
 fecha = int(input("Ingrese su año de naciminento: "))
 
@@ -86,7 +99,7 @@ elif fecha >=2001 and fecha <=2010:
     print("Perteneces a la generación Z")
 else:
     print("Ingresa un año correcto o coherente")
-print("-----------------------------------------")
+print("----------------------------------------------------")
 print("Ejemplo N° [8]: PROGRAMA DE CRÉDITO BANCARIO.")
 
 nombre = input("Ingrese su nombre: ")
@@ -97,7 +110,7 @@ elif edad <=17:
     print("No eres mayor de edad.")
 else:
     print("Ingresa un dato correcto o coherente.")
-print("-----------------------------------------")
+print("----------------------------------------------------")
 # print("Ejemplo N° [9]: PROGRAMA DE SALA DE JUEGOS.")
 
 # edad = int(input("Ingrese la edad: "))
