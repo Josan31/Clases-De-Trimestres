@@ -84,12 +84,59 @@
 
 # print("----------------------------------------------------")
 
-print("Ejemplo N° [6]")
+# print("Ejemplo N° [6]")
 
-# Supongamos que queremos que el usuario escriba una contraseña, y si nola escribe correctamente, el programa siga pidiéndola 
+# # Supongamos que queremos que el usuario escriba una contraseña, y si nola escribe correctamente, el programa siga pidiéndola 
 
-clave = input("Escriba su contraseña: ")
+# clave = input("Escriba su contraseña: ") # Pide contraseña por primera vez
 
-while clave != "Python123":
-    print("Contraseña incorrecta")
+# # Mientras la contraseña esté mal
+# while clave != "3123":
+#     print("Contraseña incorrecta")
+#     clave = input("Intenta de nuevo: ") # Vuelve a pedir la contraseña
+    
+# print("Acceso concedido. Bienvenido.")
 
+# # En este ejemplo el bucle while se repite mientas la clave escritra no sea igual a "3123". Si el usuario escribe la clave correcta, el bucle se detiene y da un mensaje de bienvenida.
+
+# print("----------------------------------------------------")
+
+# # --- WHILE Y IF ---
+
+# # El bucle while repite un bloque de código de mientras una condicón sea verdadera
+
+# contador = int(input("Ingrese un número: "))
+
+# while contador <= 20:
+#     print(contador)
+#     contador += 1
+    
+# # La instrucción if evalúa una condición. Si la condición se cumple (es verdadera), se ejecuta el bloque de código
+
+# nombre = input("Ingrese su nombre: ")
+# edad = int(input("Ingrese su edad: "))
+
+# if edad >= 18:
+#     print(f"{nombre}, tienes {edad} años. Eres mayor de edad")
+# else:
+#     print("No eres mayor de edad")
+    
+# # ¿CÓMO SE USAN JUNTOS?
+# # Puedes usar if dentro de un bucle while para formar una repetición 
+
+# continuar = input("¿Desea entrar al programa? (si/no): ")
+
+# while continuar.strip().lower() == "si":
+#     nombre1 = input("Ingrese su nombre: ")
+#     edad1 = int(input("Ingrese su edad: "))
+    
+#     if edad1 >= 18:
+#         print(f"{nombre1}, tienes {edad1} años. Eres mayor de edad")
+#     else:
+#         print(f"{nombre1}, tienes {edad1} años. NO eres mayor de edad")
+    
+#     continuar = input("¿Desea ingresar a otra persona? (si/no): ")
+    
+# print("Fin del programa")
+    
+    
