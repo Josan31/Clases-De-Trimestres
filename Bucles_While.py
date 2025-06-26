@@ -161,7 +161,7 @@
     
 # print("----------------------------------------------------")
 
-# print("Ejercicio N° [1]") 
+# print("Ejemplo N° [8]") 
 # print("===== cajero automático =====".upper())
 
 # # El .strip() sirve para quitar los espacios al inicio y al final
