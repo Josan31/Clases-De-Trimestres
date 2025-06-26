@@ -139,4 +139,60 @@
     
 # print("Fin del programa")
     
+# print("----------------------------------------------------")
+
+print("Ejemplo N° [7]") 
+print("===== cajero automático =====".upper())
+
+# Pregunta incial 
+pregunta = input("¿Desea entrar al cajero automático? (si/no): ".strip().lower())
+
+if pregunta == "si":
+    # Paso 1: Pedir los datos al usuario
+    nombre2 = input("Ingrese su nombre de usuario: ")
+    edad2 = int(input("Ingrese su edad: "))
     
+    # Validación de edad mínima
+    if edad2 < 18:
+        print(f"{nombre2}, debes tener almenos 18 años para usar el cajero automático")
+    else:
+        clave2 = input("Escriba su contraseña: ")
+  
+        # Validación de clave ingresada 
+        while clave2 != "123456":
+            print(f"{nombre2}, Contraseña incorrecta.")
+            clave2 = input(f"{nombre2}, intenta de nuevo: ")
+    
+        print("Acceso concedido. Bienvenido")
+    
+        # Paso 2: Menú de opciones 
+        saldo = float(input("Ingrese su saldo actual: "))
+        opciones = ""
+    
+        while opciones != "3":
+            
+            print("\n---- MENÚ ----")
+            print("1. Consultar saldo.")
+            print("2. Retirar dinero.")
+            print("3. Salir.")
+        
+            opciones = input("\nSeleccione una de las opciones (1/2/3): ")
+        
+            if opciones == "1":
+                print(f"{nombre2}, tu saldo actual es: ${saldo}")
+            elif opciones == "2":
+                retiro = int(input("Ingrese la cantidad a retirar: "))
+            
+                if retiro <= saldo:
+                    saldo -= retiro  
+                    print(f"Has retirado ${retiro}. Saldo restante: ${saldo}")
+                else:
+                    print("Fondos insuficientes.")
+                
+            elif opciones == "3":
+                print("Gracias por usar el cajero automático.¡Hasta pronto!")
+            else:
+                print(f"{nombre2}, La opción ingresada no es válida. intentalo de nuevo ")
+                
+else:
+    print("Acceso al programa cancelado. ¡Que tengas buen dia!")
