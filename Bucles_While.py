@@ -101,6 +101,26 @@
 
 # print("----------------------------------------------------")
 
+# print("Ejemplo N° [7]")
+
+# numero2 = 1
+
+# while numero2 <= 10:
+    
+#     # Se verifica si el número actual es par (al dividirlo entre 2, el residuo es 0)
+#     if numero2 % 2 == 0:
+#         print(f"El número {numero2} es par")
+        
+#     else:
+#         print(f"El número {numero2} es impar") # Si no, impreme que es impar
+    
+#     # Se incrementa el número en 1 para evitar un bucle infinito
+#     numero2 += 1
+
+# print("Fin del programa")
+
+# print("----------------------------------------------------")
+
 # # --- WHILE Y IF ---
 
 # # El bucle while repite un bloque de código de mientras una condicón sea verdadera
@@ -141,7 +161,7 @@
     
 # print("----------------------------------------------------")
 
-print("Ejemplo N° [7]") 
+print("Ejercicio N° [1]") 
 print("===== cajero automático =====".upper())
 
 # Pregunta incial 
@@ -196,3 +216,5 @@ if pregunta == "si":
                 
 else:
     print("Acceso al programa cancelado. ¡Que tengas buen dia!")
+
+# print("----------------------------------------------------")
