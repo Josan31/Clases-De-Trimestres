@@ -161,60 +161,66 @@
     
 # print("----------------------------------------------------")
 
-print("Ejercicio N° [1]") 
-print("===== cajero automático =====".upper())
+# print("Ejercicio N° [1]") 
+# print("===== cajero automático =====".upper())
 
-# Pregunta incial 
-pregunta = input("¿Desea entrar al cajero automático? (si/no): ".strip().lower())
+# # El .strip() sirve para quitar los espacios al inicio y al final
+# # El .lower() sriev para convertir todo el texto a minúsculas
+# pregunta = input("¿Desea entrar al cajero automático? (si/no): ".strip().lower()) 
 
-if pregunta == "si":
-    # Paso 1: Pedir los datos al usuario
-    nombre2 = input("Ingrese su nombre de usuario: ")
-    edad2 = int(input("Ingrese su edad: "))
+# # si el usuario escribe si, se ejecuta el programa
+# if pregunta == "si":
     
-    # Validación de edad mínima
-    if edad2 < 18:
-        print(f"{nombre2}, debes tener almenos 18 años para usar el cajero automático")
-    else:
-        clave2 = input("Escriba su contraseña: ")
+#     # Paso 1: Pedir los datos al usuario
+#     nombre2 = input("Ingrese su nombre de usuario: ")
+#     edad2 = int(input("Ingrese su edad: "))
+    
+#     # Si la edad es menor a 18, no se permite continuar
+#     if edad2 < 18:
+#         print(f"{nombre2}, debes tener almenos 18 años para usar el cajero automático")
+#     else:
+#         clave2 = input("Escriba su contraseña: ")
   
-        # Validación de clave ingresada 
-        while clave2 != "123456":
-            print(f"{nombre2}, Contraseña incorrecta.")
-            clave2 = input(f"{nombre2}, intenta de nuevo: ")
+#         # Mientras la contraseña no sea "123456", sigue pidiendo que la escriba de nuevo 
+#         while clave2 != "123456":
+#             print(f"{nombre2}, Contraseña incorrecta.")
+#             clave2 = input(f"{nombre2}, intenta de nuevo: ")
     
-        print("Acceso concedido. Bienvenido")
+#         print("Acceso concedido. Bienvenido")
     
-        # Paso 2: Menú de opciones 
-        saldo = float(input("Ingrese su saldo actual: "))
-        opciones = ""
-    
-        while opciones != "3":
-            
-            print("\n---- MENÚ ----")
-            print("1. Consultar saldo.")
-            print("2. Retirar dinero.")
-            print("3. Salir.")
+#         # Paso 2: Menú de opciones 
+#         saldo = float(input("Ingrese su saldo actual: "))
+#         opciones = ""
         
-            opciones = input("\nSeleccione una de las opciones (1/2/3): ")
-        
-            if opciones == "1":
-                print(f"{nombre2}, tu saldo actual es: ${saldo}")
-            elif opciones == "2":
-                retiro = int(input("Ingrese la cantidad a retirar: "))
+#         # Ciclo que muestra el menú hasta que el usuario elija la opción 3 (salir)
+#         while opciones != "3":
             
-                if retiro <= saldo:
-                    saldo -= retiro  
-                    print(f"Has retirado ${retiro}. Saldo restante: ${saldo}")
-                else:
-                    print("Fondos insuficientes.")
+#             print("\n---- MENÚ ----")
+#             print("1. Consultar saldo.")
+#             print("2. Retirar dinero.")
+#             print("3. Salir.")
+        
+#             opciones = input("\nSeleccione una de las opciones (1/2/3): ")
+        
+#             if opciones == "1":
+#                 print(f"{nombre2}, tu saldo actual es: ${saldo}")
+#             elif opciones == "2":
+#                 retiro = int(input("Ingrese la cantidad a retirar: "))
                 
-            elif opciones == "3":
-                print("Gracias por usar el cajero automático.¡Hasta pronto!")
-            else:
-                print(f"{nombre2}, La opción ingresada no es válida. intentalo de nuevo ")
+#                 # Si quiere retirar dinero, se verifica que tenga suficiente saldo
+#                 if retiro <= saldo:
+#                     saldo -= retiro  # Se le resta el retiro al saldo
+#                     print(f"Has retirado ${retiro}. Saldo restante: ${saldo}")
+#                 else:
+#                     print("Fondos insuficientes.")
                 
-else:
-    print("Acceso al programa cancelado. ¡Que tengas buen dia!")
+#             elif opciones == "3":
+#                 print("Gracias por usar el cajero automático.¡Hasta pronto!")
+#             else:
+#                 print(f"{nombre2}, La opción ingresada no es válida. intentalo de nuevo ")
+             
+# # De lo contrario, si el usuario escribre no, el programa no incia   
+# else:
+#     print("Acceso al programa cancelado. ¡Que tengas buen dia!")
 
 # print("----------------------------------------------------")
