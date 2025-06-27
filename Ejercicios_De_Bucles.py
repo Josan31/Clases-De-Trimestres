@@ -184,4 +184,76 @@ print("Ejercicio N° [5]")
 
 # print("----------------------------------------------------")
     
-print("Ejercicio N° [10]")
+# print("Ejercicio N° [10]")
+
+
+# while True:
+    
+#     # Se crea el menú de inicio
+#     print("\n===== MENÚ =====")
+#     print("1. SUMA")
+#     print("2. RESTA")
+#     print("3. MULTIPLICACIÓN")
+#     print("4. DIVISIÓN")
+#     print("5. SALIR\n")
+    
+#     # Pide al usuario ingresar una opción de 1 a 5
+#     opcion = input("Elige una opción (1-5): ").lower()
+    
+#     # Ejecuta el bloque para la opción 1
+#     if opcion == "1":
+#         print("Elejiste la opción 1 (SUMA)")
+#         num1 = int(input("Ingresa un número: "))
+#         num2 = int(input("Ingresa otro número: "))
+        
+#         resultado = num1 + num2
+        
+#         print(f"\nLa suma entre {num1} y {num2} es: {resultado}")
+    
+#     # Ejecuta el bloque para la opción 2
+#     elif opcion == "2":
+#         print("Elejiste la opción 2 (RESTA)")
+#         num3 = int(input("Ingresa un número: "))
+#         num4 = int(input("Ingresa otro número: "))
+        
+#         resultado2 = num3 - num4
+        
+#         print(f"\nLa resta entre {num3} y {num4} es: {resultado2}")
+        
+#     # Ejecuta el bloque para la opción 3
+#     elif opcion == "3":
+#         print("Elejiste la opción 3 (MULTIPLICACIÓN)")
+#         num5 = int(input("Ingresa un número: "))
+#         num6 = int(input("Ingresa otro número: "))
+        
+#         resultado3 = num5 * num6
+        
+#         print(f"\nLa multiplicación entre {num5} y {num6} es: {resultado3}")
+    
+#     # Ejecuta el bloque para la opción 4
+#     elif opcion == "4":
+#         print("Elejiste la opción 4 (DIVISIÓN)")
+#         num7 = int(input("Ingresa un número: "))
+#         num8 = int(input("Ingresa otro número: "))
+        
+#         if num7 == 0 or num8 == 0:
+#             print("No se puede dividir entre 0")
+#         else:
+#             resultado4 = num7 / num8
+#             print(f"\nLa división entre {num7} y {num8} es: {resultado4}")
+    
+#     # Ejecuta el bloque para la opción 5
+#     elif opcion == "5":
+#         print("!Hasta pronto¡")
+#         break # Rompe el bucle infinito
+    
+#     # Si no se cumple ninguna de las opciones anteriores, el bucle sigue 
+#     else:
+#         print("Opción no válida, intente de nuevo")
+
+# # Cuando salgo del bucle saldré el mensaje
+# print("Fin del programa")
+        
+# print("----------------------------------------------------")
+
+print("Ejercicio N° [11]")
