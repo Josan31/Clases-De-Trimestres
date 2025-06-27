@@ -351,9 +351,33 @@ print("Ejercicio N° [5]")
 # print(f"\nLista de cuadrados ingresados: {cuadrados}")
 # print("Fin del programa")
 
-print("----------------------------------------------------")
+# print("----------------------------------------------------")
 
-print("Ejercicio N° [15]")
+# print("Ejercicio N° [15]")
 
-diccionario3 = {}
+# estudiantes = {}
 
+# while True:
+#     nombre_e = input("Ingresa el nombre del estudiante: ").lower()
+    
+#     # Si el usuario escribe fin en el nombre, finaliza el programa
+#     if nombre_e == "fin":
+#         print("Programa finalizado")
+#         break
+    
+#     nota_f = float(input("Ingresa su nota final: "))
+    
+#     # Guarda el nombre y la nota del estudiante en el diccionario inicial
+#     estudiantes[nombre_e] = nota_f
+    
+#     # Pregunta al usuario si desea continuar 
+#     continuar3 = input("¿Desea ingresar otro estudiante? (si/no): ").lower()
+    
+#     if continuar3 == "si":
+#         print("puede continuar")
+#     else:
+#         print("Programa detenido")
+#         break
+
+# print(f"la lista completa de estudiantes ingresados es: {estudiantes}")
+# print("Fin del programa")
