@@ -84,7 +84,43 @@
 
 # print("----------------------------------------------------")
 
-print("Ejercicio N° [5]")
+# print("Ejercicio N° [5]")
+
+# # Crea una lista vacía
+# lista1 = []
+
+# nombre1 = input("Ingresa tu nombre: ")
+
+# while True:
+    
+#     # Pide las notas al usuario
+#     nota1 = input("Ingresa una nota (0-5) o escribe 'salir' para terminar: ")
+    
+#     # Si en el campo de ingresar nota, ingresa 'salir'
+#     if nota1.lower() == "salir":
+#         print("Programa finalizado")
+#         break # termina el bucle 
+    
+#     # Coniverte la nota ingresa a un número float
+#     nota1 = float(nota1)
+    
+#     # Agrega la nota a la lista vacía 
+#     lista1.append(nota1)
+    
+#     print(f"{nombre1}, agregaste la nota: {nota1}")
+    
+# # Calcula el promedio después del bucle
+# if len(lista1) > 0:
+    
+#     promedio = sum(lista1) / len(lista1) 
+#     # sum() suma todas las notas 
+#     # len()  cuenta cuántas notas hay
+    
+#     print(f"\n{nombre1}, El promedio de las notas ingresadas es: {promedio}")
+# else:
+#     print("No se ingresaron notas.")
+    
+# print("Fin del programa")
 
 # print("----------------------------------------------------")
     
@@ -381,3 +417,5 @@ print("Ejercicio N° [5]")
 
 # print(f"la lista completa de estudiantes ingresados es: {estudiantes}")
 # print("Fin del programa")
+
+# print("----------------------------------------------------")
