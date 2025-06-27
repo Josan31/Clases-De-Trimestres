@@ -236,7 +236,7 @@ print("Ejercicio N° [5]")
 #         num7 = int(input("Ingresa un número: "))
 #         num8 = int(input("Ingresa otro número: "))
         
-#         if num7 == 0 or num8 == 0:
+#         if num8 == 0:
 #             print("No se puede dividir entre 0")
 #         else:
 #             resultado4 = num7 / num8
@@ -256,4 +256,57 @@ print("Ejercicio N° [5]")
         
 # print("----------------------------------------------------")
 
-print("Ejercicio N° [11]")
+# print("Ejercicio N° [11]")
+
+# # Lista vacía inicial
+# personas = {}
+
+# while True:
+#     nombre_p = input("Ingresa el nombre a registrar: ").lower()
+    
+#     # Finaliza el bucle si el usuario escribe salir
+#     if nombre_p == "salir":
+#         print("Saliste del programa con 'salir'")
+#         break # rompe el bucle 
+    
+#     edad_p = int(input("Ingresa la edad de la persona registrada: "))
+    
+#     # Se gurdan las personas ingresadas y su edad a la lista vacía inicial
+#     personas[nombre_p] = edad_p
+    
+#     # Le dice al usuario si quiere agregar otra persona 
+#     continuar = input("¿Deseas ingresar otra persona? (si/no): ").lower()
+    
+#     if continuar == "si":
+#         print("Continúa...")
+#     else:
+#         print("Saliste del programa con 'no'")
+#         break # rompe el bucle
+         
+# print(f"\nEl diccionario final de personas es: {personas}")
+# print("Fin del programa")
+
+# print("----------------------------------------------------")
+
+# print("Ejercicio N° [12]")
+
+# colores = ["amarillo", "azul", "rojo", "verde", "negro"]
+
+# while True:
+#     color2 = input("Ingresa un color: ").lower()  # Con .lower() no importa si escribe en mayúscula
+    
+#     # Si el color ingresado está en la lista incial de colores
+#     if color2 in colores:
+#         print(f"¡Correcto! El color '{color2}' está en la lista.")
+#         break # rompe el bucle
+    
+#     # Si el color no está, se repite el bucle 
+#     else:
+#         print(f"El color '{color2}' no está en la lista. Intenta otra vez.")
+        
+# print("Fin del programa")
+
+# print("----------------------------------------------------")
+
+print("Ejercicio N° [13]")
+
