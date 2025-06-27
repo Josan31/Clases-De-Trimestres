@@ -140,23 +140,48 @@ print("Ejercicio N° [5]")
 
 # print("Ejercicio N° [8]")
 
+# # Se crea una lista de frutas inciales en mayúscula
 # frutas = ("manzana".upper(), "pera".upper(), "mango".upper(), "uva".upper(), "fresa".upper())
 
 # while True:
 #     frutas2 = input("Ingresa una fruta a adivinar: ").upper()
     
+#     # Si la fruta ingresada por el usuario está en la tupla inicial
 #     if frutas2 in frutas:
 #         print("¡Acertaste una de las frutas!")
 #         break
 #     else:
 #         print("No acertaste")
 
+# # Mensaje para cuando finalice el bucle 
 # print(f"La lista de frutas iniciales era: {frutas}. Y tú ingresaste {frutas2}, ¡Acertaste!")
 # print("Fin del programa")
     
 # print("----------------------------------------------------")
 
-print("Ejercicio N° [9]")
+# print("Ejercicio N° [9]")
 
+# # Se crea una lista con palabras iniciales y su traducción en inglés
+# diccionario1 = {"camisa": "shirt", "desatornillador": "screwdriver", "cama": "bed", "ventana": "window", "flor": "flower", "arbol": "tree", "cielo": "sky", "tímido": "shy", "hola": "hi/hello"}
 
+# while True:
+#     palabra = input("Ingresa una palabra es español: ").lower()
     
+#     # Si el usuario escribe fin, termina el programa
+#     if palabra == "fin":
+#         print("Elegiste salir del programa.")
+#         break
+    
+#     # Si la palabra ingresada está en el diccionario
+#     if palabra in diccionario1:
+#         print(f"La traducción es {diccionario1[palabra]}")
+        
+#     # Si no, pide ingresar otra
+#     else:
+#         print(f"La palabra {palabra} no está. Escribe otra")
+        
+# print("Fin del programa")
+
+# print("----------------------------------------------------")
+    
+print("Ejercicio N° [10]")
