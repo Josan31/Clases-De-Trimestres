@@ -308,5 +308,52 @@ print("Ejercicio N° [5]")
 
 # print("----------------------------------------------------")
 
-print("Ejercicio N° [13]")
+# print("Ejercicio N° [13]")
+
+# while True:
+#     num1 = int(input("Ingresa un número: "))
+#     potencia = 1 # Se crea un contador 
+  
+#     while potencia <= 5:
+#         result = num1 ** potencia
+#         print(f"\nEl número {num1} elevado a la {potencia} es: {result}")
+#         potencia += 1 # En cada bucle se le sumará un 1 el contador
+
+#     # Pregunta si desea ingresar otro dato
+#     continuar2 = input("\n¿Deseas ingresar otro número? (si/no): ").lower()
+    
+#     # Si continúa, el bucle se repite
+#     if continuar2 == "si":
+#         print("Continúa...\n")
+#     else:
+#         print("¡Hasta pronto!")
+#         break  # sale del bucle principal
+
+# print("Fin del programa")
+
+# print("----------------------------------------------------")
+
+# print("Ejercicio N° [14]")
+
+# cuadrados = []
+# contador = 0
+
+# # Mientras el contador sea menor a 5 se le sumará +1 en la siguente vuelta
+# while contador < 5:
+#     num2 = int(input("Ingresa un número: "))
+#     cálculo = num2 ** 2
+#     cuadrados.append(cálculo) # Agrego el número ingresado a listas 
+    
+#     print(f"El cuadrado de {num2} es {cálculo}")
+#     contador += 1 # Procede con el siguiente número
+
+# # Cuando sale del bucle 
+# print(f"\nLista de cuadrados ingresados: {cuadrados}")
+# print("Fin del programa")
+
+print("----------------------------------------------------")
+
+print("Ejercicio N° [15]")
+
+diccionario3 = {}
 
