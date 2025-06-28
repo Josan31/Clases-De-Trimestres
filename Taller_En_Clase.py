@@ -188,5 +188,5 @@
 # print("\n[30]")
 
 # mayus = input("por favor, escribe una palabra: ")
-# print(f"Su palabra en mayúscula es: {mayus.upper()}")          #upper() es para poner texto en mayuscula
-# print(f"Su palabra en minúscula es: {mayus.lower()}")          #lowe() para poner texto a minúscula
+# print(f"Su palabra en mayúscula es: {mayus.upper()}") #upper() es para poner texto en mayuscula
+# print(f"Su palabra en minúscula es: {mayus.lower()}") #lowe() para poner texto a minúscula

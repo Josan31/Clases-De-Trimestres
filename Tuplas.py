@@ -1,4 +1,5 @@
-# # print("------ TUPLAS  Y LISTAS ------")
+# # print("------> TUPLAS <------")
+
 # # Las tuplas se declara muy parecida a una lista, con la unica diferencia que utiliza paréntesis en lugar de corchetes. Ejemplo: 
 
 # mi_tupla = (1,2,3,4,5)
