@@ -4,25 +4,25 @@
 
 # print("-------------- POTENCIACIÓN --------------")
 
-# """ La potenciación es una operación matemática que se utiliza para multiplicar un número por si mismo varias veces. Es una forma abreviada de realizar una multiplicación repetida, donde intervienen dos elementos que son: base y exponente. La base representa el número que se va a multiplicar, mientras que el exponente indica cuantas veces se debe multiplicar. Ejemplos: 3**2 = 3*3 = 9 | 2**6 = 2*2*2*2*2*2 = 12 | 4**2 = 4*4 = 16. """
+# La potenciación es una operación matemática que se utiliza para multiplicar un número por si mismo varias veces. Es una forma abreviada de realizar una multiplicación repetida, donde intervienen dos elementos que son: base y exponente. La base representa el número que se va a multiplicar, mientras que el exponente indica cuantas veces se debe multiplicar. Ejemplos: 3**2 = 3*3 = 9 | 2**6 = 2*2*2*2*2*2 = 12 | 4**2 = 4*4 = 16. 
 
 # print("----- PROPIEDADES DE LA POTENCIACIÓN -----")
 
 # print("\n--> PRODUCTO DE POTENCIACIÓN CON LA MISMA BASE <--\n")
 
-# """ Cuando se multiplican dos potencias con la misma base, se conserva la base y se suman los exponentes, tal que así: a**m * a**n = a**(m+n). De ser el caso que las bases sean distintas se calcula cada potencia por separado. Ejemplos: 2**4 * 2**3 = 2**7 = 128 | 3**3 * 1**3 = 27*1 = 27 """
+# Cuando se multiplican dos potencias con la misma base, se conserva la base y se suman los exponentes, tal que así: a**m * a**n = a**(m+n). De ser el caso que las bases sean distintas se calcula cada potencia por separado. Ejemplos: 2**4 * 2**3 = 2**7 = 128 | 3**3 * 1**3 = 27*1 = 27 
 
 # print("\n--> COSCIENTE DE POTENCIA DE LA MISMA BASE <--\n")
 
-# """ Cuando se dividen dos potencias que tienen la misma base, se conserva la base y se restan los exponentes. Tal que así: a**m / a**n = a**(m-n). Por el contrario, si las bases no son iguales, NO puedes restar los exponentes, Solo se resuelven por separado. Ejemplos: 10**4 / 10**1 = 10**(-3) = 1.000 | 6**2 / 5**2 = 36 / 25 = 1.44 """
+#  Cuando se dividen dos potencias que tienen la misma base, se conserva la base y se restan los exponentes. Tal que así: a**m / a**n = a**(m-n). Por el contrario, si las bases no son iguales, NO puedes restar los exponentes, Solo se resuelven por separado. Ejemplos: 10**4 / 10**1 = 10**(-3) = 1.000 | 6**2 / 5**2 = 36 / 25 = 1.44 
 
 # print("\n--> POTENCIA DE UNA POTENCIA <--\n")
 
-# """ Cuando una potencia se eleva a otra potencia, se mantienen las bases y se multiplican los exponentes. Tal que así: (a**m)**n = a**(m*n).Ejemplos: (3**2)**3 = 3**(2*3) = 3**6 = 729 | (5**2)**3 = 5**(2*3) = 5**6 = 15.625 """
+# Cuando una potencia se eleva a otra potencia, se mantienen las bases y se multiplican los exponentes. Tal que así: (a**m)**n = a**(m*n).Ejemplos: (3**2)**3 = 3**(2*3) = 3**6 = 729 | (5**2)**3 = 5**(2*3) = 5**6 = 15.625 
 
 # print("\n--> POTENCIA DE UN PRODUCTO <--\n")
 
-# """ Cuando un producto se eleva a una potencia, cada factor del producto se eleva al mismo esponente. Tal que así: (a*b)**c = a**c * b**c. Ejemplo: (2*3)**4 = 2**4 * 3**4 = 16*81 = 1,296. En caso de querer hacer el procedimiento mas corto, solo multiplicas 2*3 y lo elevas a la 4 tal que así: (2*3)**4 = 6**4 = 1,296 """
+# Cuando un producto se eleva a una potencia, cada factor del producto se eleva al mismo esponente. Tal que así: (a*b)**c = a**c * b**c. Ejemplo: (2*3)**4 = 2**4 * 3**4 = 16*81 = 1,296. En caso de querer hacer el procedimiento mas corto, solo multiplicas 2*3 y lo elevas a la 4 tal que así: (2*3)**4 = 6**4 = 1,296 
 
 # print("-----> EJERCICIOS DE POTENCIACIÓN <-----")
 
