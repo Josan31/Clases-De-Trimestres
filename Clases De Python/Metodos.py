@@ -105,6 +105,47 @@
 
 # print("----------------------------------------------------")
 
+# print("==== MÉTODO N°4: CONCATENACIÓN '+' ====")
+
+# print("\n- concatenación: unir cadenas de texto con el símbolo '+'.\n".upper())
+
+# print("Permite combinar dos o más cadenas en una sola.")
+
+# print("----------------------------------------------------")
+
+# print("==== EJEMPLO N°1 ====")
+
+# # Solicita el nombre y apellido al usuario
+# nombre = input("\nEscribe tu nombre: ")
+# apellido = input("Escribe tu apellido: ")
+
+# # Une las cadenas con un espacio entre medio
+# nombre_completo = nombre + " " + apellido
+
+# print(f"\nTu nombre completo es: {nombre_completo}")
+
+# print("----------------------------------------------------")
+
+# print("==== EJEMPLO N°2 ====")
+
+# # Crea un mensaje a partir de varias partes
+# parte1 = "Hola"
+# parte2 = ", "
+# parte3 = "bienvenido"
+# parte4 = " a Python."
+
+# mensaje = parte1 + parte2 + parte3 + parte4
+
+# print(f"\nMensaje final: {mensaje}")
+
+print("----------------------------------------------------")
+
+print("==== MÉTODO N°5: .lower() ====")
+
+# print("\n- .lower(): convierte todo el texto a minúsculas\n".upper())
+
+# print("Bueno para normalizar textos antes de comparar.")
+
 
 
 # print("\n- len(): Longitud de una cadena (o lista)\n".upper())
