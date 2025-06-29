@@ -79,9 +79,12 @@
 
 # print("=======================================================")
 
-print("Método N° [3]".upper())
-print("\n- len(): Longitud de una cadena (o lista)\n".upper())
+print("Método N° [3]".upper())   
 
+print("\n- len(): Longitud de una cadena (o lista)\n".upper())
+  
 print("len() Devuelve cuántos caracteres (o elementos) hay.")
 
+# este es un comentario 
+print("Hola ") # comentario
 
