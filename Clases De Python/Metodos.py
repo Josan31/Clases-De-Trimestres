@@ -132,20 +132,24 @@
 
 # print("==== EJEMPLO N°1 ====")
 
-# texto = input("\nEscribe una frase con MAYÚSCULAS y minúsculas: ")
+# texto = input("\nEscribe una frase con mayúsculas: ")
 
 # print(f"\nFrase en minúsculas: {texto.lower()}")
 
 # print("---------------------------------------------------------------")
 
-print("==== MÉTODO N°6: .upper() ====")
+# print("==== MÉTODO N°6: .upper() ====")
 
-print("\n- .upper(): convierte todo el texto a MAYÚSCULAS\n".upper())
+# print("\n- .upper(): convierte todo el texto a MAYÚSCULAS\n".upper())
 
-print("Útil para resaltar palabras o comparar en mayúsculas.")
+# print("Útil para resaltar palabras o comparar en mayúsculas.")
 
+# print("\n==== EJEMPLO N°1 ====")
 
+# texto = input("\nEscribe una frase con minúsculas: ")
 
+# print(f"\nFrase en mayúsculas: {texto.upper()}")
 
+# print("---------------------------------------------------------------")
 
 
