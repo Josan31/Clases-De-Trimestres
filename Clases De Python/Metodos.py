@@ -2,25 +2,25 @@
 # print(" MÉTODOS EN PYTHON ".center(40, "="))
 # print("=" * 40 + "\n")
 
-# print("-" * 50)
+# print("----------------------------------------------------")
 
 # print("==== MÉTODO N°1: .LEN() ====")
 
 # print("\n- len(): Longitud de una cadena (o lista)\n".upper())
 
-# print(".len() Devuelve cuántos caracteres (o elementos) hay.")
+# print(".len() Devuelve cuántos caracteres (o elementos) hay.\n")
 
-# print("-" * 50)
+# print("----------------------------------------------------")
 
 # print("==== EJEMPLO N°1 ====")
 
 # # Pide ingresar el nombre del usuario 
 # nombre = input("\nIngresa tu nombre: ".lower())
 
-# # Da de resultado la cantidad de elementos que tiene el nombre
+# # Muestra la cantidad de letras que hay en la palabra
 # print(f"\nEl nombre {nombre}, tiene: {len(nombre)} caracteres")
 
-# print("-" * 50)
+# print("----------------------------------------------------")
 
 # print("==== EJEMPLO N°2 ====")
 
@@ -32,15 +32,15 @@
 # print(f"La palabra '{palabras[1]}' tiene {len(palabras[1])} letras")
 # print(f"La palabra '{palabras[2]}' tiene {len(palabras[2])} letras")
 
-# print("=" * 60)
+# print("----------------------------------------------------")
 
 # print("==== MÉTODO N°2: .FIND() ====")
 
 # print("\n- .find(): buscar una subcadena\n".upper())
 
-# print(".find() Devuelve la posición (índice) donde aparece por primera vez una letra o palabra. Si no se encuentra, devuelve -1.")
+# print(".find() Devuelve la posición (índice) donde aparece por primera vez una letra o palabra. Si no se encuentra, devuelve -1.\n")
 
-# print("-" * 50)
+# print("----------------------------------------------------")
 
 # print("==== EJEMPLO N°1 ====")
 
@@ -58,7 +58,7 @@
 #     print(f"\nLa letra '{letra}' SI está en la frase '{frase}'")
 #     print(f"Aparece por primera vez en la posición {posicion}")
 
-# print("-" * 50)
+# print("----------------------------------------------------")
 
 # print("==== EJEMPLO N°2 ====")
 
@@ -77,13 +77,33 @@
 # else:
 #     print(f"\n¡Palabra encontrada! Empieza en la posición {pos}")
 
-print("=" * 60)
+# print("----------------------------------------------------")
 
-print("==== MÉTODO N°3: EXTRACCIÓN ====")  
+# print("==== MÉTODO N°3: EXTRACCIÓN [ ] ====")  
 
+# print("\n- extracción: obtener una parte de una cadena\n".upper())
 
+# print("----------------------------------------------------")
 
+# print("==== EJEMPLO N°1 ====")
 
+# # Solicita una frase al usuario
+# frase = input("\nEscribe una frase corta: ")
+
+# # Muestra solo los primeros 5 letras
+# print(f"\nLos primeros 5 caracteres son: '{frase[0:5]}'")
+
+# print("----------------------------------------------------")
+
+# print("==== EJEMPLO N°2 ====")
+
+# palabra = input("\nEscribe una frase larga: ")
+
+# # Extrae los caracteres desde la posición 1 hasta la 4
+# print(f"\nLos caracteres del índice 1 al 4 son: '{palabra[1:5]}'")
+# print(f"\nLos caracteres del índice 6 al 8 son: '{palabra[6:9]}'")
+
+# print("----------------------------------------------------")
 
 
 
