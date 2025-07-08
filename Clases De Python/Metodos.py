@@ -4,152 +4,157 @@
 
 # print("---------------------------------------------------------------")
 
-# print("==== MÉTODO N°1: .LEN() ====")
+# print("==== MÉTODO N°1: .len() ====")
 
-# print("\n- len(): Longitud de una cadena (o lista)\n".upper())
+# print("\n- len(): Longitud de una cadena (o lista)")
+# print("Este método devuelve cuántos caracteres (o elementos) hay.\n")
 
-# print(".len() Devuelve cuántos caracteres (o elementos) hay.\n")
+# print("==== EJEMPLO N°1 ====")
 
-# print("\n==== EJEMPLO N°1 ====")
+# nombre = input("Ingresa tu nombre: ")
 
-# # Pide ingresar el nombre del usuario 
-# nombre = input("\nIngresa tu nombre: ".lower())
-
-# # Muestra la cantidad de letras que hay en la palabra
-# print(f"\nEl nombre {nombre}, tiene: {len(nombre)} caracteres")
+# # Muestra la cantidad de letras que tiene el nombre
+# print(f"El nombre '{nombre}' tiene {len(nombre)} caracteres.")
 
 # print("\n==== EJEMPLO N°2 ====")
 
-# # Pide los datos al usuario almacenandolos en una lista
-# palabras = [input("\nIngrese una palabra: ".lower()), input("Ingrese otra palabra: ".lower()), input("Ingrese una última palabra: ".lower())]
+# # Pide 3 palabras al usuario y las guarda en una lista
+# palabras = [
+#     input("Ingrese una palabra: "),
+#     input("Ingrese otra palabra: "),
+#     input("Ingrese una última palabra: ")
+# ]
 
-# # Cuenta cuantas letras tiene cada palabra
-# print(f"\nLa palabra '{palabras[0]}' tiene {len(palabras[0])} letras")
-# print(f"La palabra '{palabras[1]}' tiene {len(palabras[1])} letras")
-# print(f"La palabra '{palabras[2]}' tiene {len(palabras[2])} letras")
+# # Muestra cuántas letras tiene cada palabra
+# print(f"\nLa palabra '{palabras[0]}' tiene {len(palabras[0])} letras.")
+# print(f"La palabra '{palabras[1]}' tiene {len(palabras[1])} letras.")
+# print(f"La palabra '{palabras[2]}' tiene {len(palabras[2])} letras.")
 
 # print("---------------------------------------------------------------")
 
-# print("==== MÉTODO N°2: .FIND() ====")
+# print("==== MÉTODO N°2: .find() ====")
 
-# print("\n- .find(): buscar una subcadena\n".upper())
+# print("\n- .find(): Buscar una subcadena")
+# print(".find() devuelve el índice donde aparece por primera vez una letra o palabra.")
+# print("Si no se encuentra, devuelve -1.\n")
 
-# print(".find() Devuelve la posición (índice) donde aparece por primera vez una letra o palabra. Si no se encuentra, devuelve -1.\n")
+# print("==== EJEMPLO N°1 ====\n")
 
-# print("\n==== EJEMPLO N°1 ====")
-
-# # Pide los datos al usuario
-# frase = input("\nIngresa una frase: ").lower()
+# frase = input("Ingresa una frase: ").lower()
 # letra = input("Ingrese una sola letra (ej: a): ").lower()
 
-# # si la letra ingresada por el usuario no está en la frase
-# if letra not in frase:
-#     print(f"\nLa letra '{letra}' NO está en la frase: '{frase}'. Por lo cual arroja un {frase.find(letra)} ")
-    
-# # Si la letra ingresada por el usuario sí está en la frase
+# # Busca la posición de la letra con .find()
+# posicion = frase.find(letra)
+
+# # Verifica si la letra fue encontrada
+# if posicion == -1:
+#     print(f"\nLa letra '{letra}' NO está en la frase.")
+#     print(f"Resultado: {posicion}")  # Mostrará -1
 # else:
-#     posicion = frase.find(letra)
-#     print(f"\nLa letra '{letra}' SI está en la frase '{frase}'")
-#     print(f"Aparece por primera vez en la posición {posicion}")
+#     print(f"\nLa letra '{letra}' SÍ está en la frase.")
+#     print(f"Aparece por primera vez en la posición: {posicion}")
 
-# print("\n==== EJEMPLO N°2 ====")
+# print("\n==== EJEMPLO N°2 ====\n")
 
-# # Pide al usuario la frase y la palabra a buscar
-# frase2 = input("\nEscribe una frase misteriosa: ").lower()
-# clave = input("\nIngrese la palabra clave para buscar: ").lower()
+# # Se pide una segunda frase y una palabra clave
+# frase2 = input("Escribe una frase misteriosa: ").lower()
+# clave = input("Ingrese la palabra clave para buscar: ").lower()
 
-# # Verifica si la palabra ingresada está en la frase
+# # Busca la posición de la palabra clave
 # pos = frase2.find(clave)
 
-# # Si la palabra ingresada por el usuario no está en la frase
+# # Verifica si la palabra fue encontrada
 # if pos == -1:
-#     print("\nLa palabra clave no fue encontrada... sigue buscando")
-    
-# # Si sí está, arroja un mensaje 
+#     print("\nLa palabra clave no fue encontrada... sigue buscando.")
 # else:
-#     print(f"\n¡Palabra encontrada! Empieza en la posición {pos}")
+#     print(f"\n¡Palabra encontrada! Empieza en la posición: {pos}")
 
 # print("---------------------------------------------------------------")
 
-# print("==== MÉTODO N°3: EXTRACCIÓN [ ] ====")  
+# print("==== MÉTODO N°3: Extracción [ ] ====")
 
-# print("\n- extracción: obtener una parte de una cadena\n".upper())
+# print("\n- EXTRACCIÓN: Obtener una parte de una cadena usando índices.\n")
 
-# print("\n==== EJEMPLO N°1 ====")
+# print("==== EJEMPLO N°1 ====")
 
-# # Solicita una frase al usuario
 # frase = input("\nEscribe una frase corta: ")
 
-# # Muestra solo los primeros 5 letras
+# # Muestra los primeros 5 caracteres (desde índice 0 hasta 4)
 # print(f"\nLos primeros 5 caracteres son: '{frase[0:5]}'")
 
 # print("\n==== EJEMPLO N°2 ====")
 
+# # Pide otra frase (puede ser más larga)
 # palabra = input("\nEscribe una frase larga: ")
 
-# # Extrae los caracteres desde la posición 1 hasta la 4
+# # Extrae y muestra los caracteres desde el índice 1 hasta el 4 (no incluye el 5)
 # print(f"\nLos caracteres del índice 1 al 4 son: '{palabra[1:5]}'")
-# print(f"\nLos caracteres del índice 6 al 8 son: '{palabra[6:9]}'")
+
+# # Extrae desde el índice 6 hasta el 8 (no incluye el 9)
+# print(f"Los caracteres del índice 6 al 8 son: '{palabra[6:9]}'")
 
 # print("---------------------------------------------------------------")
 
-# print("==== MÉTODO N°4: CONCATENACIÓN '+' ====")
+# print("==== MÉTODO N°4: Concatenación '+' ====")
 
-# print("\n- concatenación: unir cadenas de texto con el símbolo '+'.\n".upper())
-
+# print("\n- CONCATENACIÓN: Unir cadenas de texto con el símbolo '+'.\n")
 # print("Permite combinar dos o más cadenas en una sola.")
 
 # print("\n==== EJEMPLO N°1 ====")
 
-# # Solicita el nombre y apellido al usuario
 # nombre = input("\nEscribe tu nombre: ")
 # apellido = input("Escribe tu apellido: ")
 
-# # Une las cadenas con un espacio entre medio
+# # Une el nombre con el apellido, separados por un espacio
 # nombre_completo = nombre + " " + apellido
 
+# # Muestra el resultado
 # print(f"\nTu nombre completo es: {nombre_completo}")
 
 # print("\n==== EJEMPLO N°2 ====")
 
-# # Crea un mensaje a partir de varias partes
+# # Define varias partes de un mensaje
 # parte1 = "Hola"
 # parte2 = ", "
 # parte3 = "bienvenido"
 # parte4 = " a Python."
 
+# # Une todas las partes para formar una sola cadena
 # mensaje = parte1 + parte2 + parte3 + parte4
 
+# # Muestra el mensaje final
 # print(f"\nMensaje final: {mensaje}")
 
 # print("---------------------------------------------------------------")
 
-# print("==== MÉTODO N°5: .lower() ====")
+print("==== MÉTODO N°5: .lower() ====")
 
-# print("\n- .lower(): convierte todo el texto a minúsculas\n".upper())
+# Explicación del método
+print("\n- .lower(): Convierte todo el texto a minúsculas.\n")
+print("Útil para normalizar textos antes de compararlos.")
 
-# print("Bueno para normalizar textos antes de comparar.")
+print("\n==== EJEMPLO N°1 ====")
 
-# print("==== EJEMPLO N°1 ====")
+texto = input("\nEscribe una frase con MAYÚSCULAS: ")
 
-# texto = input("\nEscribe una frase con mayúsculas: ")
+# Convierte la frase a minúsculas
+print(f"\nFrase en minúsculas: {texto.lower()}")
 
-# print(f"\nFrase en minúsculas: {texto.lower()}")
+print("---------------------------------------------------------------")
 
-# print("---------------------------------------------------------------")
+print("==== MÉTODO N°6: .upper() ====")
 
-# print("==== MÉTODO N°6: .upper() ====")
+# Explicación del método
+print("\n- .upper(): Convierte todo el texto a MAYÚSCULAS.\n")
+print("Útil para resaltar palabras o comparar en mayúsculas.")
 
-# print("\n- .upper(): convierte todo el texto a MAYÚSCULAS\n".upper())
+print("\n==== EJEMPLO N°1 ====")
 
-# print("Útil para resaltar palabras o comparar en mayúsculas.")
+texto = input("\nEscribe una frase con minúsculas: ")
 
-# print("\n==== EJEMPLO N°1 ====")
+# Convierte la frase a mayúsculas
+print(f"\nFrase en mayúsculas: {texto.upper()}")
 
-# texto = input("\nEscribe una frase con minúsculas: ")
-
-# print(f"\nFrase en mayúsculas: {texto.upper()}")
-
-# print("---------------------------------------------------------------")
+print("---------------------------------------------------------------")
 
 
