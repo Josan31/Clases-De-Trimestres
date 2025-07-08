@@ -12,6 +12,8 @@
 
 print("------------------- EJERCICIOS -------------------")
 
+print("Ejercicio N° [1]")
+
 mascota = input("Ingrese el nombre de la mascota: ")
 tipo_a = input("Ingrese el tipo de animal: ")
 edad = int(input("Ingrese la edad de la mascota: "))
@@ -29,6 +31,8 @@ Mascota = {
 print("\nLos datos guardados son: ", Mascota)
 
 print("--------------------------------------------------")
+
+print("Ejercicio N° [2]")
 
 # Diccionario con información de un estudiante
 estudiante = {
@@ -49,6 +53,8 @@ print(f"Edad: {estudiante['edad']} años")
 print(f"Segunda nota: {estudiante['notas'][1]}")
 
 print("--------------------------------------------------")
+
+print("Ejemplo N° [1]")
 
 # Primer diccionario
 dictionary = {
@@ -83,6 +89,8 @@ except KeyError:
 
 print("--------------------------------------------------")
 
+print("Ejercicio N° [3]")
+
 print("Pequeño programa Taller 1.")
 
 nom_product = input("por favor, ingrese el nombre del producto: ")
@@ -96,6 +104,8 @@ diccionario1 = {"producto: ": lista1}
 print(f"El costo total de la cantidad del producto {nom_product} es: {unidad * precio}")
 
 print("--------------------------------------------------")
+
+print("Ejercicio N° [4]")
 
 print("Pequeño programa Taller 2.")
 
@@ -134,6 +144,8 @@ total_producto1 = producto1[1] * producto1[2]
 print(f"El total del producto {producto1[0]} es: {total_producto1}")
 
 print("--------------------------------------------------")
+
+print("Ejercicio N° [4")
 
 print("Pequeño programa Taller 3.")
 
