@@ -17,35 +17,39 @@
 # Esto es útil cuando no sabemos cuántas veces se repetirá el ciclo, y queremos que se siga ejecutando hasta que pase algo específico.
 # Para poder salir de este tipo de bucle, se debe usar la instrucción 'break', que detiene el ciclo en el momento que se ejecuta, sin importar que la condición siga siendo True.
 
-print("-----------------------------------------------------------")
+# print("------------------------------------------------------------")
 
-print("Ejemplo N° [1]")
+# print("Ejemplo N° [1]")
 
-contador = int(input("Ingrese un número: "))
-while contador >= 1: # mientras el usuario ingrese un número mayor o igual a 1, se hará una cuenta regresiva del número ingresado hasta el 1
-    print(f"Contador {contador}")
-    contador -= 1 # Le resta
-print("Terminó el contador")
+# numero = int(input("Ingrese un número: "))
 
-print("----------------------------------------------------")
+# # Bucle que se ejecuta mientras 'numero' sea mayor o igual a 1
+# while numero >= 1: 
+#     # Muestra el valor actual del 'numero'
+#     print(f"Contador {numero}")
+#     # Resta 1 al contador en cada vuelta (cuenta regresiva)
+#     numero -= 1 
+    
+# print("\nEl contador ha terminado.")
 
-print("Ejemplo N° [2]")
+# print("------------------------------------------------------------")
 
-while True:
-    texto = input("Escribe algo (o escribe salir para terminar): ")
-    if texto == "salir":
-        break # break detiene inmediatamente un ciclo (while o for), aunque la condición del ciclo siga siendo verdadera
-    else:      
-        print(f"Escribiste la palabra o texto: {texto}")
+# print("Ejemplo N° [2]")
 
-# Esto se ejecuta después del break
-print("Saliste del bucle o del programa")
+# # Bucle infinito: siempre se repite porque la condición "True" es siempre verdadera
+# while True:
+#     texto = input("Escribe algo (o escribe 'salir' para terminar): ")
+    
+#     # Si el usuario escribe exactamente "salir"
+#     if texto == "salir":
+#         break # El 'break' detiene el ciclo aunque la condición sea verdadera
+#     else:      
+#         # Si no escribió "salir", muestra lo que escribió
+#         print(f"Escribiste la palabra o texto: {texto}")
 
-# ¿QUÉ HACE WHILE TRUE?
+# print("\nSaliste del bucle.")
 
-# Significa que el bucle nunca termina por sí solo, porque la condición TRUE siempre es verdadera. Para salir del bucle, debes usar la instrucción break
-
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 print("Ejemplo N° [3]")
 
@@ -60,28 +64,28 @@ print("Terminó el conteo")
 # 2: Usamos la sentencia while  para indicar que mientras num sea mayor a 0 entremos al bloque de código
 # 3: Al evaluar num contra 0 nos indica que es TRUE
  
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 print("Ejemplo N° [4]")
 
 # Pide al usuario un número 
-numero = int(input("Ingresa la tabla de multiplicar: "))
+numero2 = int(input("Ingresa la tabla de multiplicar: "))
 # Se crea un contador con el número 1
 contador2 = 1
 
 while contador2 <= 10:
     
     # Se calcula el resultado de multiplicarel número por el contador actual
-    resultado = numero * contador2
+    resultado = numero2 * contador2
     
-    print(f"{numero} * {contador2} = {resultado} ") # Se muestra la multiplicación actual
+    print(f"{numero2} * {contador2} = {resultado} ") # Se muestra la multiplicación actual
     
     # Se suma 1 al contador para pasar al siguiente número (ej: de 1 a 2)
     contador2 += 1
     
 print("El programa ha finalizado")
 
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 print("Ejemplo N° [5]")
 
@@ -94,7 +98,7 @@ while num2 <= 5:
     # Aumenta num2 en 1 para que avance al siguiente número
     num2 += 1 
 
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 print("Ejemplo N° [6]")
 
@@ -111,7 +115,7 @@ print("Acceso concedido. Bienvenido.")
 
 # En este ejemplo el bucle while se repite mientas la clave escritra no sea igual a "3123". Si el usuario escribe la clave correcta, el bucle se detiene y da un mensaje de bienvenida.
 
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 print("Ejemplo N° [7]")
 
@@ -131,7 +135,7 @@ while numero2 <= 10:
 
 print("Fin del programa")
 
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 # --- WHILE Y IF ---
 
@@ -171,7 +175,7 @@ while continuar.strip().lower() == "si":
     
 print("Fin del programa")
     
-print("----------------------------------------------------")
+print("------------------------------------------------------------")
 
 print("Ejemplo N° [8]") 
 print("===== cajero automático =====".upper())
