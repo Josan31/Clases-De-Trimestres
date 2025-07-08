@@ -49,168 +49,195 @@
 
 # print("\nSaliste del bucle.")
 
-print("------------------------------------------------------------")
+# print("------------------------------------------------------------")
 
-print("Ejemplo N° [3]")
+# print("Ejemplo N° [3]")
 
-num = int(input("Ingrese un número: "))
+# numero_secreto = 21
 
-while num > 0:
-    print(f"{num}")
-    num -= 1
-print("Terminó el conteo")
+# adivinanza = int(input("Adivina el número secreto entre 1 y 30: "))
 
-# 1: Declaramos la variable num y le pedimos al usuario que ingrese el número 
-# 2: Usamos la sentencia while  para indicar que mientras num sea mayor a 0 entremos al bloque de código
-# 3: Al evaluar num contra 0 nos indica que es TRUE
+# # Bucle que se repite mientras el número no sea correcto
+# while adivinanza != numero_secreto:
+#     print("Incorrecto. Intenta de nuevo.")
+#     adivinanza = int(input("Adivina el número secreto entre 1 y 30: "))
+
+# # Si acierta, sale del bucle y muestra este mensaje
+# print("\n¡Correcto! Adivinaste el número secreto.")
  
-print("------------------------------------------------------------")
+# print("------------------------------------------------------------")
 
-print("Ejemplo N° [4]")
+# print("Ejemplo N° [4]")
 
-# Pide al usuario un número 
-numero2 = int(input("Ingresa la tabla de multiplicar: "))
-# Se crea un contador con el número 1
-contador2 = 1
-
-while contador2 <= 10:
+# while True:
     
-    # Se calcula el resultado de multiplicarel número por el contador actual
-    resultado = numero2 * contador2
+#     numero2 = int(input("Ingresa la tabla de multiplicar: "))
     
-    print(f"{numero2} * {contador2} = {resultado} ") # Se muestra la multiplicación actual
+#     # Reinicia el contador cada vez
+#     contador = 1
+
+#     # Imprime la tabla del número ingresado
+#     while contador <= 10:
+#         # Hace la operación
+#         resultado = numero2 * contador
+#         # Muestra el texto
+#         print(f"{numero2} * {contador} = {resultado}")
+#         # Agrega +1 a cada vuelta
+#         contador += 1 
+
+#     # Pregunta si quiere ingresar otra tabla
+#     respuesta = input("¿Quieres ingresar otra tabla? (sí/no): ").lower()
+
+#     # Si el usuario escribe 'no', se rompe el ciclo y termina
+#     if respuesta != "sí":
+#         break
+
+# print("\nEl programa ha finalizado")
+
+# print("------------------------------------------------------------")
+
+# print("Ejemplo N° [5]")
+
+# numero3 = int(input("Ingrese un número: "))
+
+# if numero3 <= 10:
     
-    # Se suma 1 al contador para pasar al siguiente número (ej: de 1 a 2)
-    contador2 += 1
-    
-print("El programa ha finalizado")
-
-print("------------------------------------------------------------")
-
-print("Ejemplo N° [5]")
-
-num2 = int(input("Ingrese un número: "))
-
-# Se repite mientras num2 sea menor o igual 5 
-while num2 <= 5:
-    print(f"{num2}") # muestra el valor actual de num2 
-    
-    # Aumenta num2 en 1 para que avance al siguiente número
-    num2 += 1 
-
-print("------------------------------------------------------------")
-
-print("Ejemplo N° [6]")
-
-# Supongamos que queremos que el usuario escriba una contraseña, y si nola escribe correctamente, el programa siga pidiéndola 
-
-clave = input("Escriba su contraseña: ") # Pide contraseña por primera vez
-
-# Mientras la contraseña esté mal
-while clave != "3123":
-    print("Contraseña incorrecta")
-    clave = input("Intenta de nuevo: ") # Vuelve a pedir la contraseña
-    
-print("Acceso concedido. Bienvenido.")
-
-# En este ejemplo el bucle while se repite mientas la clave escritra no sea igual a "3123". Si el usuario escribe la clave correcta, el bucle se detiene y da un mensaje de bienvenida.
-
-print("------------------------------------------------------------")
-
-print("Ejemplo N° [7]")
-
-numero2 = 1
-
-while numero2 <= 10:
-    
-    # Se verifica si el número actual es par (al dividirlo entre 2, el residuo es 0)
-    if numero2 % 2 == 0:
-        print(f"El número {numero2} es par")
+#     # Se repite mientras 'numero3' sea menor o igual 10 
+#     while numero3 <= 10:
+#         print(f"{numero3}") # muestra el valor actual de 'numero3'
         
-    else:
-        print(f"El número {numero2} es impar") # Si no, impreme que es impar
+#         # Aumenta 'numero3' en 1 para que avance al siguiente número
+#         numero3 += 1 
     
-    # Se incrementa el número en 1 para evitar un bucle infinito
-    numero2 += 1
+# else:
+#     print(f"El numero {numero3} es mayor a 3")
 
-print("Fin del programa")
-
-print("------------------------------------------------------------")
-
-# --- WHILE Y IF ---
-
-# El bucle while repite un bloque de código de mientras una condicón sea verdadera
-
-contador = int(input("Ingrese un número: "))
-
-while contador <= 20:
-    print(contador)
-    contador += 1
+# print("\nFin del conteo.")
     
-# La instrucción if evalúa una condición. Si la condición se cumple (es verdadera), se ejecuta el bloque de código
+# print("------------------------------------------------------------")
 
-nombre = input("Ingrese su nombre: ")
-edad = int(input("Ingrese su edad: "))
+# print("Ejemplo N° [6]")
 
-if edad >= 18:
-    print(f"{nombre}, tienes {edad} años. Eres mayor de edad")
-else:
-    print("No eres mayor de edad")
+# clave = input("Escriba su contraseña: ").lower()
+
+# # Mientras la contraseña sea incorrecta (distinta de "3123")
+# while clave != "3123":
+#     # Muestra un mensaje de error
+#     print("Contraseña incorrecta")
+#     # Pide que intente de nuevo
+#     clave = input("Intenta de nuevo: ")
+
+# print("\nAcceso concedido. Bienvenido.")
+
+# print("------------------------------------------------------------")
+
+# print("Ejemplo N° [7]")
+
+# numero4 = 1
+
+# while numero4 <= 10:
     
-# ¿CÓMO SE USAN JUNTOS?
-# Puedes usar if dentro de un bucle while para formar una repetición 
-
-continuar = input("¿Desea entrar al programa? (si/no): ")
-
-while continuar.strip().lower() == "si":
-    nombre1 = input("Ingrese su nombre: ")
-    edad1 = int(input("Ingrese su edad: "))
+#     # Se verifica si el número actual es par (al dividirlo entre 2, el residuo es 0)
+#     if numero4 % 2 == 0:
+#         print(f"El número {numero4} es par")
+        
+#     else:
+#         print(f"El número {numero4} es impar") # Si no, impreme que es impar
     
-    if edad1 >= 18:
-        print(f"{nombre1}, tienes {edad1} años. Eres mayor de edad")
-    else:
-        print(f"{nombre1}, tienes {edad1} años. NO eres mayor de edad")
-    
-    continuar = input("¿Desea ingresar a otra persona? (si/no): ")
-    
-print("Fin del programa")
-    
-print("------------------------------------------------------------")
+#     # Se incrementa el número en 1 para evitar un bucle infinito
+#     numero4 += 1
 
-print("Ejemplo N° [8]") 
-print("===== cajero automático =====".upper())
+# print("\nFin del programa")
 
-# El .strip() sirve para quitar los espacios al inicio y al final
-# El .lower() sriev para convertir todo el texto a minúsculas
-pregunta = input("¿Desea entrar al cajero automático? (si/no): ".strip().lower()) 
+# print("------------------------------------------------------------")
 
-# si el usuario escribe si, se ejecuta el programa
+# # "--- WHILE Y IF JUNTOS ---
+
+# # WHILE: repite un bloque de código de mientras una condición sea verdadera. Ejemplo: 
+# # IF: evalúa una condición. Si la condición se cumple (es verdadera), se ejecuta el bloque de código
+
+# numero5 = int(input("Ingrese un número: "))
+
+# if numero5 <= 20:
+    
+#     # Mientras el número ingresado sea menor a 20
+#     while numero5 <= 20:
+#         print(numero5)
+#         # Le suma 1 a el número hasta llegar a 20
+#         numero5 += 1 
+# else:
+#     print("Ingresa un número que sea menor a 20")
+    
+# print("\nFin del conteo.\n")
+
+# print("---------------------------------------")
+
+# nombre = input("Ingrese su nombre: ")
+# edad = int(input("Ingrese su edad: "))
+
+# # Si la edad es mayor a 18
+# if edad >= 18:
+#     print(f"{nombre}, tienes {edad} años. Eres mayor de edad")
+
+# # De lo contrario, no es mayor de edad
+# else:
+#     print("No eres mayor de edad")
+
+# print("---------------------------------------")
+
+# continuar = input("¿Desea entrar al programa? (si/no): ")
+
+# # Bucle que se repite mientras la respuesta sea 'si' (ignorando espacios y mayúsculas)
+# while continuar.strip().lower() == "si":
+    
+#     nombre1 = input("Ingrese su nombre: ")
+#     edad1 = int(input("Ingrese su edad: "))
+    
+#     # Verifica si la persona es mayor o menor de edad
+#     if edad1 >= 18:
+#         print(f"{nombre1}, tienes {edad1} años. Eres mayor de edad")
+#     else:
+#         print(f"{nombre1}, tienes {edad1} años. NO eres mayor de edad")
+    
+#     # Pregunta si se desea ingresar a otra persona
+#     continuar = input("¿Desea ingresar a otra persona? (si/no): ")
+    
+# print("\nFin del programa")
+    
+# print("------------------------------------------------------------")
+
+print("===== CAJERO AUTOMÁTICO =====".upper())
+
+# Pregunta si el usuario desea entrar al cajero
+pregunta = input("¿Desea entrar al cajero automático? (si/no): ").strip().lower() # Se eliminan espacios y se convierte a minúsculas 
+
 if pregunta == "si":
     
-    # Paso 1: Pedir los datos al usuario
+    # Paso 1: Solicitar datos del usuario
     nombre2 = input("Ingrese su nombre de usuario: ")
     edad2 = int(input("Ingrese su edad: "))
     
-    # Si la edad es menor a 18, no se permite continuar
+    # Verifica si el usuario es mayor de edad
     if edad2 < 18:
-        print(f"{nombre2}, debes tener almenos 18 años para usar el cajero automático")
+        print(f"{nombre2}, debes tener al menos 18 años para usar el cajero automático.")
     else:
+        # Pide la contraseña
         clave2 = input("Escriba su contraseña: ")
   
-        # Mientras la contraseña no sea "123456", sigue pidiendo que la escriba de nuevo 
+        # Repite mientras la contraseña sea incorrecta
         while clave2 != "123456":
-            print(f"{nombre2}, Contraseña incorrecta.")
+            print(f"{nombre2}, contraseña incorrecta.")
             clave2 = input(f"{nombre2}, intenta de nuevo: ")
     
+        # Acceso concedido si la contraseña es correcta
         print("Acceso concedido. Bienvenido")
     
-        # Paso 2: Menú de opciones 
+        # Paso 2: Menú de opciones
         saldo = float(input("Ingrese su saldo actual: "))
         opciones = ""
         
-        # Ciclo que muestra el menú hasta que el usuario elija la opción 3 (salir)
+        # Menú que se repite hasta que el usuario elija salir
         while opciones != "3":
-            
             print("\n---- MENÚ ----")
             print("1. Consultar saldo.")
             print("2. Retirar dinero.")
@@ -220,23 +247,24 @@ if pregunta == "si":
         
             if opciones == "1":
                 print(f"{nombre2}, tu saldo actual es: ${saldo}")
+            
             elif opciones == "2":
                 retiro = int(input("Ingrese la cantidad a retirar: "))
                 
-                # Si quiere retirar dinero, se verifica que tenga suficiente saldo
+                # Verifica si hay suficiente saldo
                 if retiro <= saldo:
-                    saldo -= retiro  # Se le resta el retiro al saldo
+                    saldo -= retiro
                     print(f"Has retirado ${retiro}. Saldo restante: ${saldo}")
                 else:
-                    print("Fondos insuficientes.")
+                    print("❌ Fondos insuficientes.")
                 
             elif opciones == "3":
-                print("Gracias por usar el cajero automático.¡Hasta pronto!")
+                print("Gracias por usar el cajero automático. ¡Hasta pronto!")
+            
             else:
-                print(f"{nombre2}, La opción ingresada no es válida. intentalo de nuevo ")
+                print(f"{nombre2}, la opción ingresada no es válida. Inténtalo de nuevo.")
              
-# De lo contrario, si el usuario escribre no, el programa no incia   
+# Si el usuario responde "no" desde el inicio
 else:
-    print("Acceso al programa cancelado. ¡Que tengas buen dia!")
+    print("Acceso al programa cancelado. ¡Que tengas buen día!")
 
-print("----------------------------------------------------")
