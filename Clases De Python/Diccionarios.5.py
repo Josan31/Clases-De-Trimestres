@@ -1,54 +1,87 @@
-# print("------------------- DICCIONARIOS -------------------")
-# """Un diccionario en python es una estructura de datos que permite almacenar valores claves, es muy util cuando queremos agregar o asociar una clave con un dato."""
+# DICCIONARIOS 
 
-# print("CARACTERÍSTICAS")
+# Un diccionario en python es una estructura de datos que permite almacenar valores claves, 
+# es muy util cuando queremos agregar o asociar una clave con un dato.
 
-# """
+# CARACTERÍSTICAS
+
 # 1. Las claves que agreguemos en los diccionarios deben ser unicas.
 # 2. las claves pueden ser de tipo inmutable y pueden ser tipo string, enteros, tuplas.
 # 3. Los valores que pueden llevar un diccionario son: otros diccionarios, listas, cadenas de carácteres entre otros.
-# 4. Los diccionarios se colocan entre llaves."""
+# 4. Los diccionarios se colocan entre llaves.
 
 # print("------------------- EJERCICIOS -------------------")
 
-# nom_mascota = input("Ingrese el nombre de la mascota: ")
+# mascota = input("Ingrese el nombre de la mascota: ")
 # tipo_a = input("Ingrese el tipo de animal: ")
 # edad = int(input("Ingrese la edad de la mascota: "))
-# nom_dueño = input("Ingrese el nombre del dueño: ")
+# dueño = input("Ingrese el nombre del dueño: ")
 # Ciudad = input("Ingrese la cidad donde está ubicado: ")
 
 # Mascota = {
-#     "Nombre": nom_mascota,
+#     "Nombre": mascota,
 #     "Tipo": tipo_a,
 #     "edad": edad,
-#     "dueño": nom_dueño,
+#     "dueño": dueño,
 #     "ciudad": Ciudad,
 # }
-# print("Los datos guardados son: ",Mascota)
 
-# print("--------------------------------------")
+# print("Los datos guardados son: ", Mascota)
 
+# print("--------------------------------------------------")
+
+# # Diccionario con información de un estudiante
+# estudiante = {
+#     "nombre": "Sofía",
+#     "edad": 16,
+#     "notas": [4.5, 3.8, 5.0]
+# }
+
+# # Mostrar toda la información
+# print("Información del estudiante:")
+# print(estudiante)
+
+# # Mostrar nombre y edad por separado
+# print(f"Nombre: {estudiante['nombre']}")
+# print(f"Edad: {estudiante['edad']} años")
+
+# # Mostrar la segunda nota
+# print(f"Segunda nota: {estudiante['notas'][1]}")
+
+# print("--------------------------------------------------")
+
+# # Primer diccionario
 # dictionary = {
-#               "a": 1,
-#               "e": 2
-#               }
+#     "a": 1,
+#     "e": 2
+# }
+
 # print()
 # print(dictionary)
-# print(f"Clave a: {dictionary["a"]}")
-# print(f"Clave e: {dictionary["e"]}")
+# print(f"Clave a: {dictionary['a']}")
+# print(f"Clave e: {dictionary['e']}")
 
-# dictionary = {"numbers": [18,20,28], "groups": ("a": 1, "b": 2)}
+# # Segundo diccionario con lista y diccionario dentro
+# dictionary = {
+#     "numbers": [18, 20, 28],
+#     "groups": {"a": 1, "b": 2}
+# }
 
 # print(dictionary)
-# print(f"clave numbers": {dictionary['numbers']}")
-# print(f"clave groups": {dictionary ['groups']}")
+# print(f"Clave 'numbers': {dictionary['numbers']}")
+# print(f"Clave 'groups': {dictionary['groups']}")
 
-# print(f"clave numbers": {dictionary['numbers'][1]}")
-# print(f"clave groups": {dictionary['groups']['b']}")
+# # Acceso a valores dentro de la lista y del diccionario interno
+# print(f"Segundo número en 'numbers': {dictionary['numbers'][1]}")
+# print(f"Valor de la clave 'b' en 'groups': {dictionary['groups']['b']}")
 
-# print(dictionary["z"])
+# # Acceso a una clave que no existe, usando try-except
+# try:
+#     print(f"Clave 'z': {dictionary['z']}")
+# except KeyError:
+#     print("La clave 'z' no existe en el diccionario.")
 
-# print("--------------------------------------")
+# print("--------------------------------------------------")
 
 # print("Pequeño programa Taller 1.")
 
@@ -62,7 +95,7 @@
 # diccionario1 = {"producto: ": lista1}
 # print(f"el costo total de la cantidad del producto {nom_product} es: {unidad * precio}")
 
-# print("--------------------------------------")
+# print("--------------------------------------------------")
 
 # print("Pequeño programa Taller 2.")
 
@@ -76,7 +109,7 @@
 
 # print(f"El total del producto {product1[0]} es: {product1[1] * product1[2]}")
 
-# print("--------------------------------------")
+# print("--------------------------------------------------")
 
 # print("Pequeño programa Taller 3.")
 
@@ -94,8 +127,8 @@
 
 # print(f"Tu promedio es: {lista_1}")
 
-# print("--------------------------------------")
+# print("--------------------------------------------------")
 
-
+# print("Isn't finished yet")
 
 
