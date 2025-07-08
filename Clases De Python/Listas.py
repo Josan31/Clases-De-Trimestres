@@ -103,7 +103,7 @@
 
 # print("------------------- EJERCICIOS -------------------")
 
-# print("Ejercicios N° [1]")
+# print("Ejercicio N° [1]")
 
 # numeros2 = [1, 2, 3, 2]
 
@@ -127,107 +127,143 @@
 # # Muestra la lista final después de la modificación
 # print(numeros3)
 
-print("------------------------------------------------")
+# print("------------------------------------------------")
 
-print("Ejercicios N° [2]")
+# print("Ejercicio N° [2]")
 
-contacto1 = int(input("Ingrese un número de su primer contacto: "))
-contacto2 = int(input("Ingrese un número de su segundo contacto: "))
-contacto3 = int(input("Ingrese un número de su tercer contacto: "))
+# contacto1 = int(input("Ingrese un número de su primer contacto: "))
+# contacto2 = int(input("Ingrese un número de su segundo contacto: "))
+# contacto3 = int(input("Ingrese un número de su tercer contacto: "))
 
-# Crea una lista con un guion en la posición 0 para que los índices coincidan con 1, 2, 3
-lista = ["-", contacto1, contacto2, contacto3]
+# # Crea una lista con un guion en la posición 0 para que los índices coincidan con 1, 2, 3
+# lista = ["-", contacto1, contacto2, contacto3]
 
-# Pide al usuario que elija un número del 1 al 3 para ver uno de los contactos
-soli = int(input("Ingrese el número de contacto que desea escoger (1-3): "))
+# # Pide al usuario que elija un número del 1 al 3 para ver uno de los contactos
+# solicitud = int(input("Ingrese el número de contacto que desea escoger (1-3): "))
 
-# Muestra el contacto seleccionado
-print(f"El número del contacto {soli} es: {lista[soli]}")
-
-print("------------------------------------------------")
-
-productos = []
-productos.append(input("Ingrese un producto: "))
-productos.append(input("Ingrese otro producto: "))
-productos.append(input("Ingrese un último producto: "))
-print(f"la lista de los productos es: {productos}")
-
-print("------------------------------------------------")
-
-articulo = []
-articulo.append(float(input("Ingrese un artículo: ")))
-articulo.append(float(input("Ingrese un segundo artículo: ")))
-articulo.append(float(input("Ingrese un último artículo: ")))
-op = articulo.append[0] + articulo[1] + articulo[2] 
-print(f"La suma de los precios es: {articulo}")
-
-print("------------------------------------------------")
-
-numeros = []
-numeros.append(int(input("Ingrese un número: ")))
-numeros.append(int(input("Ingrese un segundo número: ")))
-numeros.append(int(input("Ingrese un tercer número: ")))
-numeros.append(int(input("Ingrese un cuarto número: ")))
-print(f"el numero mayor fue {max(numeros)}, el menor fue {min(numeros)}")
+# # Muestra el contacto seleccionado
+# print(f"\nEl número del contacto '{solicitud}' es: {lista[solicitud]}")
 
 # print("------------------------------------------------")
 
-empleado = ["Carla", "JOSÉ", "Alenjandro", "luis", "Carla", "Ana", "Florencia", "Gerardo", "Guzman", "JOSÉ", "gustavo", "Gabriela"]
-print(empleado)
-empleado.append("JULIANA")
-total = len(empleado)
-print(f"la cantidad de elementos en la lista es: {total}")
-print(f"El menor nombre organizado alfabéticamente es {min(empleado)} y el mayor nombre organizado alfabéticamente es {max(empleado)}")
+# print("Ejercicio N° [3]")
 
-print("------------------- PROGRAMA DE 50 LÍNEAS DE CÓDIGO -------------------")
+# productos = []
 
-print("PROGRAMA DE TUPLAS, LISTAS, Y OPERACIONES.")
+# # Se agregan tres productos escritos por el usuario
+# productos.append(input("Ingrese un producto: "))
+# productos.append(input("Ingrese otro producto: "))
+# productos.append(input("Ingrese un último producto: "))
 
-num1 = int(input("Número 1: "))
-num2 = int(input("Número 2: "))
-num3 = int(input("Número 3: "))
-num4 = int(input("Número 4: "))
-num5 = int(input("Número 5: "))
-num6 = int(input("Número 6: "))
-num7 = int(input("Número 7: "))
-num8 = int(input("Número 8: "))
-num9 = int(input("Número 9: "))
-num10 = int(input("Número 10: "))
+# # Mostrar la lista final de productos
+# print(f"La lista de los productos es: {productos}")
 
-lista_1 = [num1,num2,num3,num4,num5,num6,num7,num8,num9,num10]
+# print("------------------------------------------------")
 
-Tupla1 = (num1, num1**2)
-Tupla2 = (num2, num2**2)
-Tupla3 = (num3, num3**2)
-Tupla4 = (num4, num4**2)
-Tupla5 = (num5, num5**2)
-Tupla6 = (num6, num6**2)
-Tupla7 = (num7, num7**2)
-Tupla8 = (num8, num8**2)
-Tupla9 = (num9, num9**2)
-Tupla10 = (num10, num10**2)
+# print("Ejercicio N° [4]")
 
-lista_2 = (Tupla1,Tupla2,Tupla3,Tupla4,Tupla5,Tupla6,Tupla7,Tupla8,Tupla9,Tupla10)
+# articulo = []
 
-suma = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10
-print(f"El resultado entre la suma es: {suma}")
+# # Se agregan tres precios
+# articulo.append(float(input("Ingrese el precio del primer producto: ")))
+# articulo.append(float(input("Ingrese el precio del segundo producto: ")))
+# articulo.append(float(input("Ingrese el precio del tercer producto: ")))
 
-promedio = suma // 10
-print(f"El promedio de la suma es: {promedio}")
+# # Sumar los tres precios correctamente
+# suma = articulo[0] + articulo[1] + articulo[2]
 
-doble = suma**2
-print(f"El doble de la suma es: {doble}")
+# # Mostrar el resultado
+# print(f"\nLa suma de los precios es: {suma}")
 
-mitad = promedio // 2
-print(f"La mitad del promedio es: {mitad}")
+# print("------------------------------------------------")
 
-lista_ult = [
-    num1 - num2,
-    num3 * num4,
-    num5 ** num6,
-    num7 / num8,
-    num9 + num10,
-]
-print(lista_ult)
+# print("Ejercicio N° [5]")
 
+# numeros = []
 
+# # Pedir 4 números al usuario y agregarlos a la lista
+# numeros.append(int(input("Ingrese un número: ")))
+# numeros.append(int(input("Ingrese un segundo número: ")))
+# numeros.append(int(input("Ingrese un tercer número: ")))
+# numeros.append(int(input("Ingrese un cuarto número: ")))
+
+# # Mostrar el número mayor y menor 
+# print(f"El número mayor fue {max(numeros)}, el menor fue {min(numeros)}")
+
+# print("------------------------------------------------")
+
+# print("Ejercicio N° [6]")
+
+# empleado = ["Carla", "JOSÉ", "Alenjandro", "luis", "Carla", "Ana", "Florencia", "Gerardo", "Guzman", "JOSÉ", "Gustavo", "Gabriela"]
+
+# # Muestra la lista original
+# print(empleado)
+
+# # Se agrega un nuevo nombre
+# empleado.append("JULIANA")
+
+# # Cuenta cuántos elementos hay en total
+# total = len(empleado)
+# print(f"La cantidad de elementos en la lista es: {total}")
+
+# # Muestra el nombre que aparece primero y último en orden alfabético (según mayúsculas/minúsculas)
+# print(f"El menor nombre alfabéticamente es: {min(empleado)}")
+# print(f"El mayor nombre alfabéticamente es: {max(empleado)}")
+
+# print("------------------------------------------------\n")
+
+# print("--------------- PROGRAMA DE 50 LÍNEAS DE CÓDIGO ---------------")
+
+# print("PROGRAMA DE TUPLAS, LISTAS, Y OPERACIONES.")
+
+# # Solicita 10 números al usuario
+# num1 = int(input("Número 1: "))
+# num2 = int(input("Número 2: "))
+# num3 = int(input("Número 3: "))
+# num4 = int(input("Número 4: "))
+# num5 = int(input("Número 5: "))
+# num6 = int(input("Número 6: "))
+# num7 = int(input("Número 7: "))
+# num8 = int(input("Número 8: "))
+# num9 = int(input("Número 9: "))
+# num10 = int(input("Número 10: "))
+
+# # Lista con los números ingresados
+# lista_1 = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
+
+# # Lista de tuplas: (número, número al cuadrado)
+# lista_2 = [
+#     (num1, num1**2),
+#     (num2, num2**2),
+#     (num3, num3**2),
+#     (num4, num4**2),
+#     (num5, num5**2),
+#     (num6, num6**2),
+#     (num7, num7**2),
+#     (num8, num8**2),
+#     (num9, num9**2),
+#     (num10, num10**2)
+# ]
+
+# # Operaciones
+# suma = sum(lista_1)
+# print(f"\nLa suma de los números es: {suma}")
+
+# promedio = suma // 10
+# print(f"El promedio es: {promedio}")
+
+# doble = suma ** 2
+# print(f"El cuadrado de la suma es: {doble}")
+
+# mitad = promedio // 2
+# print(f"La mitad del promedio es: {mitad}\n")
+
+# # Lista con operaciones combinadas
+# lista_ult = [
+#     num1 - num2,
+#     num3 * num4,
+#     num5 ** num6,
+#     num7 / num8 if num8 != 0 else "División por cero",
+#     num9 + num10,
+# ]
+# print(f"Lista final de operaciones: {lista_ult}")
