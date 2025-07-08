@@ -26,10 +26,10 @@ print("------------------------------------------")
 print("Ejemplo N° [2]")
 
 # Lista mixta con números y texto
-Cadena = [1, 2, 3, 5, "hola", -1, "claro"]
+cadena = [1, 2, 3, 5, "hola", -1, "claro"]
 
 # Imprime el valor en la posición -3 (cuenta desde el final)
-print("Elemento en posición -3 de la lista:", Cadena[-3])  
+print("Elemento en posición -3 de la lista:", cadena[-3])  
 
 print("------------------------------------------")
 
@@ -263,7 +263,7 @@ lista_ult = [
     num1 - num2,
     num3 * num4,
     num5 ** num6,
-    num7 / num8 if num8 != 0 else "División por cero",
+    num7 / num8,
     num9 + num10,
 ]
 print(f"Lista final de operaciones: {lista_ult}")
