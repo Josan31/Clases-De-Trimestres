@@ -1,13 +1,15 @@
 # CONCEPTOS A TENER EN CUENTA:
 
 # ¿QUÉ ES EL FLUJO? 
-# El flujo es una forma de entender la sucesion de las instrucciones de un programa, estas instrucciones se ejecutan una depues de otra de forma ordenada y suelen tener el objetivo final de manipular informacion.
+# El flujo es una forma de entender la sucesion de las instrucciones de un programa, 
+# estas instrucciones se ejecutan una despues de otra de forma ordenada y suelen tener el objetivo final de manipular informacion.
 
 # ¿QUÉ ES UN DIAGRAMA DE FLUJO?
 # Expresan nuestros algoritmos en forma de diagrama mediante una representación gráfica basada en figuras geométricas que varían según la estructura del código.
 
 # CONDICIONALES 
-# Se utilizan los operadores relacionales (==, !, >, <, etc.) y para evaluar más de una condicón simultáneamente se utilizan los operadores lógicos (not, and, or). las condiconales se definen mediante el uso de tres palabras claves reservadas: if, elif, else.
+# Se utilizan los operadores relacionales (==, !, >, <, etc.) y para evaluar más de una condicón simultáneamente se utilizan los operadores lógicos (not, and, or). 
+# las condiconales se definen mediante el uso de tres palabras claves reservadas: if, elif, else.
 
 print("----------------------------------------------------")
 
