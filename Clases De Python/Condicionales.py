@@ -21,8 +21,8 @@
 # if edad >=18:
 #     print(f"{nombre}, Tienes {edad} años. Eres mayor de edad.")
     
-# # verifica  si la edad está entre 1 y 17 años
-# elif edad >0 and edad <18:
+# # verifica si la edad está entre 1 y 17 años
+# elif edad > 0 and edad < 18:
 #     print(f"{nombre}, Tienes {edad} años. Eres menor de edad.")
     
 # # si la edad es 0 o negativa, se considera un dato inválido
@@ -96,8 +96,8 @@
 # else:
 #     # calcula el producto de los dos números
 #     result = num1 * num2
-#     print(f"El resultado es: {result}")
-
+#     print(f"El resultado entre la multiplicación es: {result}")
+   
 # # evalúa si el resultado es mayor o menor a 1000
 # if result > 5000:
 #     print(f"el resultado {result} es bastante grande")
@@ -112,6 +112,7 @@
 # nume = int(input("Ingrese un número: "))
 # nume2 = int(input("Ingrese otro número: "))
 
+# print("Se procederá a hacer una multiplicación entre los números")
 # result1 = nume * nume2
 
 # # evalúa el resultado y muestra un mensaje según su valor
@@ -146,7 +147,7 @@
 # elif fecha >=2001 and fecha <=2010:
 #     print(f"{nombre2}, Perteneces a la generación Z")
 # else:
-#     print("Ingresa un año correcto o coherente")
+#     print("Ingresa un dato correcto o coherente")
     
 # print("----------------------------------------------------")
 
@@ -168,22 +169,23 @@
     
 # print("----------------------------------------------------")
 
-# print("Ejemplo N° [9]: PROGRAMA DE SALA DE JUEGOS.")
+print("Ejemplo N° [9]: PROGRAMA DE SALA DE JUEGOS.")
 
-# # pide al usuario la edad
-# edad = int(input("Ingrese la edad: "))
+# pide al usuario la edad y su nombre 
+nombre4 = input("Ingrese el nombre: ")
+edad = int(input("Ingrese su edad: "))
 
-# # validacion del rango de la edad y calcúlo del precio 
-# if edad ==0 and edad <=4:
-#     print("Entra gratis.")
-# elif edad ==5 and edad <=18:
-#     print("Paga 5 Euros.") 
-# elif edad >=19:
-#     print("Paga 18 Euros.")
-# else:
-#     print("Ingresaste un dato incorrecto.") 
+# validacion del rango de la edad y calcúlo del precio 
+if edad >= 0 and edad <= 4:
+    print(f"La persona '{nombre4}, puede entrar gratis.")
+elif edad >= 5 and edad <= 18:
+    print(f"La persona '{nombre4}', debe de pagar 5 Euros para entrar.")
+elif edad >= 19:
+    print(f"La persona '{nombre4}', debe de pagar 18 Euros para entrar.")
+else:
+    print("Ingresa un dato coherente.") 
 
-# print("----------------------------------------------------")
+print("----------------------------------------------------")
 
 
 

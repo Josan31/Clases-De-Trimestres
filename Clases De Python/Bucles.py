@@ -1,4 +1,4 @@
-# ALGUNOS CONCEPTOS CLAVE SON: 
+# CONCEPTOS A TENER EN CUENTA:
 
 # ¿QUÉ ES ITERAR?
 # Es repetir un bloque de código varias veces. En programación, se usa para automatizar tareas.
