@@ -186,7 +186,7 @@ else:
     print("Ingresa un dato coherente.") 
 
 print("----------------------------------------------------")
-
+print("text")
 
 
 
