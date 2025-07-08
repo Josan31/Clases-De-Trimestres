@@ -85,7 +85,7 @@ print(f"Valor de la clave 'b' en 'groups': {dictionary['groups']['b']}")
 try:
     print(f"Clave 'z': {dictionary['z']}")
 except KeyError:
-    print("La clave 'z' no existe en el diccionario.")
+    print("\nLa clave 'z' no existe en el diccionario.")
 
 print("--------------------------------------------------")
 
@@ -101,7 +101,7 @@ tupla1 = (nom_product, precio)
 lista1 = [tupla1, unidad]
 
 diccionario1 = {"producto: ": lista1}
-print(f"El costo total de la cantidad del producto {nom_product} es: {unidad * precio}")
+print(f"\nEl costo total de la cantidad del producto {nom_product} es: {unidad * precio}")
 
 print("--------------------------------------------------")
 
@@ -139,9 +139,13 @@ diccionario2 = {
 
 # Calcula el total del primer producto (precio * cantidad)
 total_producto1 = producto1[1] * producto1[2]
+total_producto2 = producto2[1] * producto2[2]
+total_producto3 = producto3[1] * producto3[2]
 
-# Muestra el total del primer producto
-print(f"El total del producto {producto1[0]} es: {total_producto1}")
+# Muestra el total de los productos
+print(f"\nEl total del producto '{producto1[0]}' es: {total_producto1}")
+print(f"\nEl total del producto '{producto2[0]}' es: {total_producto2}")
+print(f"\nEl total del producto '{producto3[0]}' es: {total_producto3}")
 
 print("--------------------------------------------------")
 
@@ -177,21 +181,11 @@ promedio1 = (asignatura1[1] + asignatura1[2]) / 2
 promedio2 = (asignatura2[1] + asignatura2[2]) / 2
 promedio3 = (asignatura3[1] + asignatura3[2]) / 2
 
-# Crea una lista con las asignaturas y sus promedios
-lista_1 = [
-    asignatura1, promedio1,
-    asignatura2, promedio2,
-    asignatura3, promedio3
-]
+print(f"\nHola {nombre}, tus promedios son: ")
 
-# Crea un diccionario con el nombre del estudiante
-# y una lista de nombres de materias
-diccionario1 = {
-    "nombre": nombre,
-    "materias": [asignatura1[0], asignatura2[0], asignatura3[0]]
-}
-
-# Muestra la lista con las materias y sus promedios
-print(f"{nombre}, Tu promedio es: {lista_1}")
+# Muestra los promedios de forma clara y separada
+print(f"- {asignatura1[0]}: {promedio1}")
+print(f"- {asignatura2[0]}: {promedio2}")
+print(f"- {asignatura3[0]}: {promedio3}")
 
 print("--------------------------------------------------")
