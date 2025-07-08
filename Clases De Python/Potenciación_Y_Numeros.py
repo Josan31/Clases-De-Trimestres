@@ -106,154 +106,223 @@ result4 = fraccion ** 2
 
 print(f"El resultado de (6/2)² es: {result4} \n")
 
-print("------ TIPOS DE DATOS NUMÉRICOS ------")
+print("------ TIPOS DE DATOS NUMÉRICOS ------\n")
 
 print("\n--> ENTEROS <--\n")
 print(
-    "Los números enteros son aquellos que NO tienen decimales, tanto positivos como negativos (además del cero). "
-    "Ejemplo: 1, 2, 525, 0, -817, -100. En python, se pueden representar mediante el tipo inst (de integer). A diferencia de otros "
-    "lenguajes de programación, los números de tipo int en python pueden ser pequeños o grandes, no tienen límite alguno.\n"
+    "Los números enteros son aquellos que NO tienen decimales, pueden ser positivos, negativos o cero. "
+    "Ejemplos: 1, 2, 525, 0, -817, -100.\n"
+    "En Python, se representan con el tipo 'int' (de integer). A diferencia de otros lenguajes, los enteros en Python "
+    "no tienen un límite fijo: pueden ser tan grandes como sea necesario.\n"
 )
 
 print("\n--> FLOAT <--\n")
 print(
-    "Los números reales son los que tienen decimales. En python se expresan mediante el tipo float. Ejemplo: 0.270, -12.1233, "
-    "989.8743912, 4387, -74.93.\n"
+    "Los números reales o decimales se representan en Python con el tipo 'float'.\n"
+    "Ejemplos: 0.270, -12.1233, 989.8743912, -74.93.\n"
 )
 
-print("OPERACIONES NUMÉRICAS EN PYTHON")
+print("------ OPERACIONES NUMÉRICAS EN PYTHON ------\n")
 
 print(
-    "\nEn programación y en matemáticas, los operadores aritméticos son aquellos que manipulan los datos de tipo numérico. Es decir, "
-    "permiten la realización de operaciones matemáticas (sumas, restas, multiplicaciones, etc).\n"
-    "El resultado de una operación aritmética es un dato aritmético, es decir, si ambos valores son números enteros, el resultado "
-    "será de tipo entero; si alguno de ellos o ambos son números con decimales, el resultado también lo será.\n"
+    "En programación (y matemáticas), los operadores aritméticos permiten realizar operaciones como suma, resta, "
+    "multiplicación, división, etc.\n\n"
+    "→ Si los dos valores son enteros, el resultado será entero.\n"
+    "→ Si alguno de los dos valores es decimal (float), el resultado también será decimal.\n"
 )
- 
-# ancho2 = 70
-# print("=" * ancho2)
-# print("  Operación   | Operador | Ejemplo")
-# print("-" * ancho2)
-# print("Suma          |    +     | 3 + 5 = 8")
-# print("Resta         |    -     | 4 - 1 = 3")
-# print("Multiplicación|    *     | 3 * 6 = 18")
-# print("Potenciación  |   **     | 3 ** 2 = 9")
-# print("División      |    /     | 13.0 / 2.0 = 6.5")
-# print("Div. Entera   |   //     | 13.0 // 2.0 = 6.0")
-# print("Módulo        |    %     | 7.0 % 5 = 2.0")
-# print("=" * ancho2)
 
-# La funcion input() convierte la entrada en una cadena, aunque escribamos un numero
-# Ejemplo: nombre=int(input(¿que edad tienes?))
+# ancho2 define el ancho de la tabla
+ancho2 = 70
 
-# base1 = int(input("Ingrese una base: "))
-# expo1 = int(input("Ingrese su exponente: "))
-# print("Esta operacion se multiplicara por: ")
-# base2 = int(input("Ingrese una base: "))
-# expo2 = int(input("Ingrese su exponente: "))
-# result = base1 ** expo1 * base2 ** expo2
-# print(f"El resultado de la operacion es: {result}")
+print("=" * ancho2)
+print("  Operación        | Operador |      Ejemplo")
+print("-" * ancho2)
+print(" Suma              |    +     |   3 + 5 = 8")
+print(" Resta             |    -     |   4 - 1 = 3")
+print(" Multiplicación    |    *     |   3 * 6 = 18")
+print(" Potenciación      |   **     |   3 ** 2 = 9")
+print(" División          |    /     |   13 / 2 = 6.5")
+print(" División Entera   |   //     |   13 // 2 = 6")
+print(" Módulo (residuo)  |    %     |   7 % 5 = 2")
+print("=" * ancho2)
 
-# factor1= int(input("Ingrese una factor: "))
-# factor2 = int(input("Ingrese un segundo factor: "))
-# exponente = int(input("Ingrese un exponente por que el seran elevados los dos numeros: "))
-# operacion = factor1 * factor2
-# result = operacion ** exponente
-# print(f"El resultado de la operacion {factor1} y {factor2} elevados a la {exponente} es: {result} ")
 
-# bas1 = int(input("Ingrese una base: "))
-# exp1 = int(input("Ingrese un exponente: "))
-# exp4 = int(input("Ingrese otro exponente: "))
-# oper = bas1 ** ()
+# La función input() recibe datos del usuario como texto (cadena),
+# por eso, si queremos operar con números, debemos convertirlos con int() o float().
 
-# print("IDENTACION")
-# texto = "python"
-# print(texto[0:2])
+# === EJEMPLO 1: Multiplicación de dos potencias ===
 
-# print("ASIGNACION MULTIPLE")
-# a, b, c, = 12, 4, 2
-# print(a)
-# print(b)
-# print(c)
+# Solicita la primera base y su exponente
+base1 = int(input("Ingrese la primera base: "))
+expo1 = int(input("Ingrese el exponente de la primera base: "))
 
-# w=r=t= 2
+print("Esta operación se multiplicará por otra potencia.")
 
-# x = 8
-# x += 2
-# print(x)
+# Solicita la segunda base y su exponente
+base2 = int(input("Ingrese la segunda base: "))
+expo2 = int(input("Ingrese el exponente de la segunda base: "))
 
-# suma y asigna
-# a = "Todos "
-# a += "Los "
-# a += "Dias."
-# print(a)
+# Calcula el resultado de las dos potencias multiplicadas
+resultado1 = (base1 ** expo1) * (base2 ** expo2)
 
-# resta y asigna
-# b = 8
-# b -= 1
-# print(b)
+print(f"El resultado de {base1}^{expo1} * {base2}^{expo2} es: {resultado1}")
 
-# CONCATENACION
-# texto1 = "Hola"
-# texto2 = "Mundo."
-# result = texto1 + " " + texto2
-# print(result)
+# === EJEMPLO 2: Producto de dos factores elevados a una potencia ===
 
-# mensaje = "Hola Mundo"
-# buscar = mensaje.find("Mundo")
-# print(buscar)
-# busqueda2 = mensaje[0:6]
-# print(busqueda2)
+factor1 = int(input("\nIngrese un primer factor: "))
+factor2 = int(input("Ingrese un segundo factor: "))
+exponente = int(input("¿A qué exponente se elevará el producto de los factores?: "))
 
-# cad1 = "buenos"
-# cad2 = "Buenos"
-# cad3 = "dias"
-# print(cad1 == cad2)
-# print(cad1 == cad3)
+# Multiplica los factores y eleva el resultado al exponente
+producto = factor1 * factor2
+resultado2 = producto ** exponente
 
-# print(EJERCICIO 1)
+print(f"El resultado de ({factor1} x {factor2})^{exponente} es: {resultado2}")
 
-# cadena = "El conocimiento es poder."
-# print(cadena.find("conocimiento"))
-# print(cadena.find("poder"))
+# === EJEMPLO 3: Potencia de una potencia (pendiente de terminar) ===
 
-# print(EJERCICIO 2)
+# Solicita la base y dos exponentes para una potencia elevada a otra
+base3 = int(input("\nIngrese una base: "))
+expo3 = int(input("Ingrese el primer exponente: "))
+expo4 = int(input("Ingrese el segundo exponente: "))
 
-# cadena2 = "La práctica hace al maestro."
-# print(cadena2.find("práctica"))
-# print(cadena2.find("maestro"))
+# Aplica la propiedad de potencia de una potencia: (a^m)^n = a^(m*n)
+resultado3 = base3 ** (expo3 * expo4)
 
-# print(EJERCICIO 3)
+print(f"El resultado de ({base3}^{expo3})^{expo4} es: {resultado3}")
 
-# ingresar = input("Escriba una frase: ")
-# ingresar2 = input("Ingresa la palabra que quieras buscar en la frase: ")
-# print(ingresar.find(ingresar2))
+print("---------------------------------------------------------\n")
 
-# texto1 = "Puede que la tarea que me he impuesto de escribir una historia completa del pueblo romano desde el comienzo mismo de su existencia me recompense por el trabajo invertido en ella, no lo sé con certeza, ni creo que pueda aventurarlo. Porque veo que esta es una práctica común y antiguamente establecida, cada nuevo escritor está siempre persuadido de que ni lograrán mayor certidumbre en las materias de su narración, ni superarán la rudeza de la antigüedad en la excelencia de su estilo."
+# ---------------------- IDENTACIÓN ----------------------
 
-# print(texto1.find("común"))
-# print(texto1.find("Porque"))
-# print(texto1.find("rudeza"))
+print("IDENTACION")
 
-# print(texto1[232:432])
+texto = "python"
 
-# texto2 = "En el principio sólo existía el Caos. El Cielo y la Tierra formaban una masa confusa, en la que el todo y la nada se entremezclaban como la suciedad en el agua. Por doquier reinaba una espesa niebla que jamás logró ver ojo humano y a la que Pan-Ku consiguió dispersar con su portentosa fuerza. Lo puro quedó entonces separado de lo impuro y apareció la suprema bondad, que esparce sus bendiciones sobre toda criatura. Su mundo es el de la luz. Quien a él se acerca descubre el camino que conduce al reino del bien. Mas el que quiera penetrar en el secreto del principio de cuanto existe debe leer La crónica de los orígenes"
+# Muestra los primeros dos caracteres
+print(texto[0:2])  
 
-# print(texto2.find("masa"))
-# print(texto2.find("Su"))
-# print(texto2.find("orígenes"))
-# print(texto1[418:615])
+# ------------------- ASIGNACIÓN MÚLTIPLE -------------------
 
-# nombre = input("porfavor, ingrese el nombre del estudiante: ")
-# nota1 = float(input("Ingrese una nota: "))
-# nota2 = float(input("Ingrese una segunda nota: "))
-# nota3 = float(input("Ingrese una tercera nota: "))
-# operacion = (nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.5)
-# print(f"el resultado del estudiante {nombre} fue: {operacion}%")
-# if operacion >= 3.5:
-#     print(f"El estudiante {nombre} pasó la prueba.")
-# else: 
-#     print(f"El estudiante {nombre} Reprobó.")
+print("ASIGNACION MULTIPLE")
+
+a, b, c = 12, 4, 2
+print(a)
+print(b)
+print(c)
+
+# Asignación a varias variables con el mismo valor
+w = r = t = 2
+print(w)
+
+# ------------------- OPERADOR += -------------------
+
+x = 8
+x += 2  # Equivale a x = x + 2
+
+print(x)
+
+# ------------------- SUMA Y ASIGNA (+= con texto) -------------------
+
+a = "Todos "
+a += "Los "
+a += "Dias."
+
+print(a)
+
+# ------------------- RESTA Y ASIGNA -------------------
+
+b = 8
+b -= 1
+
+print(b)
+
+# ------------------- CONCATENACIÓN -------------------
+
+texto1 = "Hola"
+texto2 = "Mundo."
+resultado = texto1 + " " + texto2
+print(resultado)
+
+# ------------------- MÉTODO FIND -------------------
+
+mensaje = "Hola Mundo"
+buscar = mensaje.find("Mundo")
+print(buscar)  # Índice donde comienza "Mundo"
+busqueda2 = mensaje[0:6]
+print(busqueda2)
+
+# ------------------- COMPARACIÓN DE CADENAS -------------------
+
+cad1 = "buenos"
+cad2 = "Buenos"
+cad3 = "dias"
+print(cad1 == cad2)  # False, por la mayúscula
+print(cad1 == cad3)  # False, son distintas
+
+# ------------------- EJERCICIOS DE .find() -------------------
+
+print("Ejercicio N° [1]")
+cadena = "El conocimiento es poder."
+print(cadena.find("conocimiento"))  # 3
+print(cadena.find("poder"))         # 21
+
+print("Ejercicio N° [2]")
+cadena2 = "La práctica hace al maestro."
+print(cadena2.find("práctica"))  # 3
+print(cadena2.find("maestro"))   # 21
+
+print("Ejercicio N° [3]")
+ingresar = input("Escriba una frase: ")
+ingresar2 = input("Ingresa la palabra que quieras buscar en la frase: ")
+print(ingresar.find(ingresar2))
+
+# ------------------- TEXTO LARGO + BÚSQUEDAS -------------------
+texto1 = (
+    "Puede que la tarea que me he impuesto de escribir una historia completa del pueblo romano desde el comienzo mismo de su existencia me recompense por el trabajo invertido en ella, no lo sé con certeza, ni creo que pueda aventurarlo. Porque veo que esta es una práctica común y antiguamente establecida, cada nuevo escritor está siempre persuadido de que ni lograrán mayor certidumbre en las materias de su narración, ni superarán la rudeza de la antigüedad en la excelencia de su estilo."
+)
+
+print(texto1.find("común"))
+print(texto1.find("Porque"))
+print(texto1.find("rudeza"))
+
+# Muestra parte del texto del índice 232 al 432
+print(texto1[232:432])
+
+texto2 = (
+    "En el principio sólo existía el Caos. El Cielo y la Tierra formaban una masa confusa, "
+    "en la que el todo y la nada se entremezclaban como la suciedad en el agua. Por doquier reinaba una espesa niebla "
+    "que jamás logró ver ojo humano y a la que Pan-Ku consiguió dispersar con su portentosa fuerza. Lo puro quedó entonces "
+    "separado de lo impuro y apareció la suprema bondad, que esparce sus bendiciones sobre toda criatura. Su mundo es el de la luz. "
+    "Quien a él se acerca descubre el camino que conduce al reino del bien. Mas el que quiera penetrar en el secreto del principio "
+    "de cuanto existe debe leer La crónica de los orígenes"
+)
+
+print(texto2.find("masa"))
+print(texto2.find("Su"))
+print(texto2.find("orígenes"))
+
+# Muestra parte del texto1 desde el índice 418 al 615
+print(texto1[418:615])
+
+# ------------------- PROMEDIO DE NOTAS -------------------
+
+nombre = input("Por favor, ingrese el nombre del estudiante: ")
+
+nota1 = float(input("Ingrese una nota: "))
+nota2 = float(input("Ingrese una segunda nota: "))
+nota3 = float(input("Ingrese una tercera nota: "))
+
+# Se calcula el promedio (20%, 30%, 50%)
+operacion = (nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.5)
+
+print(f"El resultado del estudiante {nombre} fue: {operacion}%")
+
+# Condición para saber si aprueba
+if operacion >= 3.5:
+    print(f"El estudiante {nombre} pasó la prueba.")
+else:
+    print(f"El estudiante {nombre} reprobó.")
 
 
 
