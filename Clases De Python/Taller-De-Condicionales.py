@@ -484,30 +484,49 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [23]:\n ")
 
+# Se crea un diccionario con solo el nombre del usuario
 dic2 = {"Nombre": input("Ingresa tu nombre: ").capitalize()}
+
+# Si la clave "Ciudad" no está en el diccionario, se le asigna "Bogota"
 if "Ciudad" not in dic2:
     dic2["Ciudad"] = "Bogota"
+
+# Se muestran los datos finales del diccionario
 print(f"Los datos finales son: {dic2}.")
 
 print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [24]:\n ")
 
-dic3 = {"Producto": input("Ingrese su producto: ").capitalize(), "Precio":  float(input("Ingresa el precio: "))}
+# Se crea un diccionario con producto y precio ingresados por el usuario
+dic3 = {
+    "Producto": input("Ingrese su producto: ").capitalize(),
+    "Precio": float(input("Ingresa el precio: "))
+}
+
+# Se verifica si existe la clave "Precio" en el diccionario
 if "Precio" in dic3:
-    print(f"El precio es: {dic3["Precio"]}$.")
+    print(f"El precio es: {dic3['Precio']}$")  # Se muestra el valor si existe
 else:
     dic3["Precio"] = "No hay precio."
     print("No se encontró un precio, se asignó: No hay precio.")
+
+# Se imprimen todos los datos del producto
 print(f"Los datos del producto son: {dic3}")
     
 print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [25]:\n ")
 
-dic4 = {"Pan": float(input("Ingrese el precio: ")), "Leche":  float(input("Ingresa el precio: "))}
+# Se crea un diccionario con los precios del pan y la leche
+dic4 = {
+    "Pan": float(input("Ingrese el precio: ")),
+    "Leche": float(input("Ingresa el precio: "))
+}
+
+# Se verifica si existe la clave "Pan" en el diccionario
 if "Pan" in dic4:
-    print(f"El precio del pan es {dic4["Pan"]}$")
+    print(f"El precio del pan es {dic4['Pan']}$")
 else:
     print("Producto no disponible.")
     
