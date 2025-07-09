@@ -131,10 +131,12 @@ print("------ TIPOS DE DATOS NUMÉRICOS ------\n")
 
 print("\n--> ENTEROS <--\n")
 print(
-    "Los números enteros son aquellos que NO tienen decimales, pueden ser positivos, negativos o cero. "
-    "Ejemplos: 1, 2, 525, 0, -817, -100.\n"
-    "En Python, se representan con el tipo 'int' (de integer). A diferencia de otros lenguajes, los enteros en Python "
-    "no tienen un límite fijo: pueden ser tan grandes como sea necesario.\n"
+    "Los números enteros son aquellos que NO tienen decimales.\n"
+    "Pueden ser positivos, negativos o cero.\n"
+    "Ejemplos: 1, 2, 525, 0, -817, -100.\n\n"
+    "En Python, se representan con el tipo 'int' (de integer).\n"
+    "A diferencia de otros lenguajes, los enteros en Python no tienen un límite fijo:\n"
+    "pueden ser tan grandes como sea necesario.\n"
 )
 
 print("\n--> FLOAT <--\n")
@@ -143,20 +145,26 @@ print(
     "Ejemplos: 0.270, -12.1233, 989.8743912, -74.93.\n"
 )
 
-print("------ OPERACIONES NUMÉRICAS EN PYTHON ------\n")
+print("\n------ OPERACIONES NUMÉRICAS EN PYTHON ------\n")
 
 print(
-    "En programación (y matemáticas), los operadores aritméticos permiten realizar operaciones como suma, resta, "
-    "multiplicación, división, etc.\n\n"
-    "→ Si los dos valores son enteros, el resultado será entero.\n"
-    "→ Si alguno de los dos valores es decimal (float), el resultado también será decimal.\n"
+    "Los operadores aritméticos permiten realizar operaciones matemáticas como:\n"
+    "- Suma (+)\n"
+    "- Resta (-)\n"
+    "- Multiplicación (*)\n"
+    "- División (/)\n"
+    "- Potenciación (**), entre otros.\n\n"
+    "Reglas generales en Python:\n"
+    "→ Si ambos valores son enteros (int), el resultado será entero (cuando aplica).\n"
+    "→ Si uno de los valores es decimal (float), el resultado será float.\n"
 )
+
 
 # ancho2 define el ancho de la tabla
 ancho2 = 70
 
 print("=" * ancho2)
-print("  Operación        | Operador |      Ejemplo")
+print("  Operación        | Operador |    Ejemplo")
 print("-" * ancho2)
 print(" Suma              |    +     |   3 + 5 = 8")
 print(" Resta             |    -     |   4 - 1 = 3")
@@ -344,6 +352,3 @@ if operacion >= 3.5:
     print(f"El estudiante {nombre} pasó la prueba.")
 else:
     print(f"El estudiante {nombre} reprobó.")
-
-
-
