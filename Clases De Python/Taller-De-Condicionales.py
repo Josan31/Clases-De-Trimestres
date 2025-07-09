@@ -187,9 +187,14 @@ numero1 = int(input("Ingresa un número: "))
 divisor1 = int(input("Ingresa un divisor: "))
 divisor2 = int(input("Ingresa otro divisor: "))
 
+# La operación % (módulo) devuelve el residuo de una división
+# Si el residuo es 0, significa que la división es exacta (es divisible)
+
 if numero1 % divisor1 == 0 and numero1 % divisor2 ==0:
+    # Si el número es divisible por los dos divisores al mismo tiempo
     print(f"El número {numero1} es divisible entre {divisor1} y {divisor2}")
 else:
+    # Si no es divisible entre los dos a la vez (aunque tal vez sí con uno solo)
     print(f"El número {numero1} No es divisible entre {divisor1} y {divisor2}")
 
 print("\n-------------------------------------------------------\n")
@@ -200,7 +205,16 @@ print("\n-------------------------------------------------------")
 
 print("\nEJERCICIO N° [11]:\n ")
 
-lista1 = [int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un cuarto número: ")), int(input("Ingresa un quinto número: "))]
+# Se crea una lista con 5 números ingresados por el usuario
+lista1 = [
+    int(input("Ingresa un número: ")),
+    int(input("Ingresa un segundo número: ")),
+    int(input("Ingresa un tercer número: ")),  
+    int(input("Ingresa un cuarto número: ")),
+    int(input("Ingresa un quinto número: "))
+]
+
+# Se evalúa si el tercer número es mayor, menor o igual a 10
 if lista1[2] > 10:
     print(f"El tercer número {lista1[2]} de la lista es mayor a 10.")
 elif lista1[2] < 10:
@@ -214,7 +228,16 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [12]:\n ")
 
-lista2 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
+# Se crea una lista con 4 números ingresados por el usuario
+lista2 = [
+    int(input("Ingresa un número: ")),
+    int(input("Ingresa otro número: ")),
+    int(input("Ingresa un tercer número: ")),
+    int(input("Ingresa un último número: "))
+]
+
+# Se revisa si el número 7 está en alguna posición de la lista
+# Solo se evalúa posición por posición con condicionales
 if lista2[0] == 7:
     print("El número 7 se encuentra en la lista.")
 elif lista2[1] == 7:
@@ -228,15 +251,23 @@ else:
 
 print("\n------------------------------------------------------")
 
-print("\nEJERCICIO N° [13]:\n ")
+# Se crea una lista con 4 números ingresados por el usuario
+lista3 = [
+    int(input("Ingresa un número: ")),
+    int(input("Ingresa otro número: ")),
+    int(input("Ingresa un tercer número: ")),
+    int(input("Ingresa un último número: "))
+]
 
-lista3 = [int(input("Ingresa un número: ")), int(input("Ingresa otro número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un último número: "))]
+# Se suman los dos primeros números de la lista
 suma = lista3[0] + lista3[1]
-if suma >10: 
+
+# Se evalúa si la suma es mayor, menor o igual a 10
+if suma > 10: 
     print(f"La suma entre los números {lista3[0]} y {lista3[1]} es alta.")
-elif suma <10:
+elif suma < 10:
     print(f"La suma entre los números {lista3[0]} y {lista3[1]} es baja.")
-elif suma ==10:
+elif suma == 10:
     print("La suma es igual a 10.")
 else:
     print("Dato incorrecto.")
