@@ -251,6 +251,8 @@ else:
 
 print("\n------------------------------------------------------")
 
+print("\nEJERCICIO N° [13]:\n ")
+
 # Se crea una lista con 4 números ingresados por el usuario
 lista3 = [
     int(input("Ingresa un número: ")),
@@ -276,10 +278,19 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [14]:\n ")
 
-lista4 = [input("Ingresa un nombre: ").capitalize(), input("Ingresa otro nombre: ").capitalize(), input("Ingresa un tercer nombre: ").capitalize(), input("Ingresa un último nombre: ").capitalize()]
-print(f"Tu lista es: {lista4}")
-print(f"El último nombre es {lista4[-1]}")
+# Se crea una lista con 4 nombres ingresados por el usuario
+lista4 = [
+    input("Ingresa un nombre: ").capitalize(),
+    input("Ingresa otro nombre: ").capitalize(),
+    input("Ingresa un tercer nombre: ").capitalize(),    # .capitalize() pone la primera letra en mayúscula
+    input("Ingresa un último nombre: ").capitalize()
+]
 
+# Se muestra la lista completa y el último nombre ingresado
+print(f"Tu lista es: {lista4}")
+print(f"El último nombre es {lista4[-1]}")  # [-1] accede al último elemento de la lista
+
+# Se verifica si el último nombre es "Marta"
 if lista4[-1] == "Marta":
     print("Nombre correcto, acceso autorizado.")
 elif lista4[-1] != "Marta":
@@ -291,12 +302,23 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [15]:\n ")
 
-lista5 = [input("Ingresa el primer color: ").capitalize(), input("Ingresa el segundo color: ").capitalize(), input("Ingresa el tercer color: ").capitalize()]
+# Se crea una lista con 3 colores ingresados por el usuario
+# .capitalize() pone la primera letra en mayúscula
+lista5 = [
+    input("Ingresa el primer color: ").capitalize(),
+    input("Ingresa el segundo color: ").capitalize(),
+    input("Ingresa el tercer color: ").capitalize()
+]
 
+# Se verifica si el segundo color es "Azul"
 if lista5[1] == "Azul":
+    
+    # Si es azul, se permite cambiarlo por otro color
     lista5[1] = input(f"El segundo color es {lista5[1]}, ingrese el color deseado para reemplazar por el azul: ")
     print(lista5)
-elif lista5[1] != "azul":
+    
+elif lista5[1] != "Azul":
+    # Este elif tiene un pequeño error: compara con "azul" en minúscula, pero .capitalize() pone "Azul"
     print(f"El segundo color no es azul, es {lista5[1]}, por lo cual no requiere cambios.")
 else:
     print("Ingresa un dato correcto.")
