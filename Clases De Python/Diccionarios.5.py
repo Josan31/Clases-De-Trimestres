@@ -14,12 +14,14 @@ print("------------------- EJERCICIOS -------------------")
 
 print("Ejercicio N° [1]")
 
+# Pide una lista de datos al usuario
 mascota = input("Ingrese el nombre de la mascota: ")
 tipo_a = input("Ingrese el tipo de animal: ")
 edad = int(input("Ingrese la edad de la mascota: "))
 dueño = input("Ingrese el nombre del dueño: ")
 Ciudad = input("Ingrese la ciudad donde está ubicado: ")
 
+# Crea un diccionario con los datos recopilados.
 Mascota = {
     "Nombre": mascota,
     "Tipo": tipo_a,
@@ -28,7 +30,9 @@ Mascota = {
     "ciudad": Ciudad,
 }
 
+# Muestra en pantalla el diccionario con los datos ingresados.
 print("\nLos datos guardados son: ", Mascota)
+
 
 print("--------------------------------------------------")
 
@@ -93,14 +97,21 @@ print("Ejercicio N° [3]")
 
 print("Pequeño programa Taller 1.")
 
+# Pide los datos del producto al usuario
 nom_product = input("por favor, ingrese el nombre del producto: ")
 precio = float(input("Por favor, ingrese el precio unitario: "))
 unidad = int(input("Ingrese la cantidad comprada: "))
 
+# Crea una tupla con el nombre del producto y su precio.
 tupla1 = (nom_product, precio)
+
+# Crea una lista que contiene la tupla del producto y la cantidad.
 lista1 = [tupla1, unidad]
 
+# Crea un diccionario que almacena la información del producto.
 diccionario1 = {"producto: ": lista1}
+
+# Muestra el costo total multiplicando precio por cantidad.
 print(f"\nEl costo total de la cantidad del producto {nom_product} es: {unidad * precio}")
 
 print("--------------------------------------------------")
@@ -149,7 +160,7 @@ print(f"\nEl total del producto '{producto3[0]}' es: {total_producto3}")
 
 print("--------------------------------------------------")
 
-print("Ejercicio N° [4")
+print("Ejercicio N° [4]")
 
 print("Pequeño programa Taller 3.")
 
