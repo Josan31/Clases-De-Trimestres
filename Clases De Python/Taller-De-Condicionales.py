@@ -331,38 +331,64 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [16]:\n ")
 
-tupla1 = (int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un tercer número: ")), int(input("Ingresa un cuarto número: ")))
+# Se crea una tupla con 4 números ingresados por el usuario
+tupla1 = (
+    int(input("Ingresa un número: ")),
+    int(input("Ingresa un segundo número: ")),
+    int(input("Ingresa un tercer número: ")),
+    int(input("Ingresa un cuarto número: "))
+)
+
+# Se compara el primer valor (posición 0) con el último (posición 3)
 if tupla1[0] < tupla1[3]:
-    print(f"El valor {tupla1[0]} es menor que {tupla1[3]}, Orden ascente.")
+    print(f"El valor {tupla1[0]} es menor que {tupla1[3]}, Orden ascente.")  # menor a mayor
 elif tupla1[0] > tupla1[3]:
-    print(f"El valor {tupla1[0]} es mayor que {tupla1[3]}, Orden descente.")
+    print(f"El valor {tupla1[0]} es mayor que {tupla1[3]}, Orden descente.")  # mayor a menor
 else:
-    print("Dato incorrecto o incoherente.")
+    print("Los números son iguales o ingresaste un dato incorrecto.")  
 
 print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [17]:\n ")
 
-tupla2 = (int(input("Ingresa un número: ")), int(input("Ingresa un segundo número: ")), int(input("Ingresa un último número: ")))
-if tupla2[1] >30:
+# Se crea una tupla con 3 números ingresados
+tupla2 = (
+    int(input("Ingresa un número: ")),
+    int(input("Ingresa un segundo número: ")),  
+    int(input("Ingresa un último número: "))
+)
+
+# Se evalúa si el segundo número es mayor o menor igual a 30
+if tupla2[1] > 30:
     print(f"El segundo valor: {tupla2[1]}, es mayor a 30. Por lo cual, tu edad es mayor a 30.")
-elif tupla2[1] <=30:
+elif tupla2[1] <= 30:
     print(f"El segundo valor: {tupla2[1]}, es menor o igual a 30. Por lo cual, tu edad es menor a 30.")
 else:
-    print("ingresa un dato correcto.")
-
+    print("Ingresa un dato correcto.")
+    
 print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [18]:\n ")
 
-tupla3 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")), int(input("Ingrese un último número: ")))
+# Se crea una tupla con 3 números
+tupla3 = (
+    int(input("Ingrese un número: ")),
+    int(input("Ingrese otro número: ")),
+    int(input("Ingrese un último número: "))
+)
+
+# Se convierte la tupla en lista para poder modificarla
 lista1 = list(tupla3)
 print(lista1)
+
+# Si el segundo número es 2, se cambia por 10
 if lista1[1] == 2:
     lista1[1] = 10
-    print(f"Como el segundo número de la lista es igual a 2, se reemplazara por un 10.")
+    print("Como el segundo número de la lista es igual a 2, se reemplazará por un 10.")
 else:
-    print("el segundo número no es un 2 por lo cual no se hace cambio.")
+    print("El segundo número no es un 2, por lo cual no se hace cambio.")
+
+# Se vuelve a convertir la lista a tupla
 tupla2 = tuple(lista1)
 print(tupla2)
 
@@ -370,14 +396,22 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [19]:\n ")
 
-tupla5 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")))
+# Se crea una tupla con 2 números ingresados por el usuario
+tupla5 = (
+    int(input("Ingrese un número: ")),
+    int(input("Ingrese otro número: "))
+)
+
+# Se convierte la tupla en lista 
 lista2 = list(tupla5)
+
+# Se evalúa si el segundo número es mayor, igual o menor a 5
 if lista2[1] > 5:
-    print(f"El segundo valor es: {lista2[1]}. Este es  mayor a 5. Coordenada alta.")
+    print(f"El segundo valor es: {lista2[1]}. Este es mayor a 5. Coordenada alta.")
 elif lista2[1] == 5:
     print(f"El segundo valor es: {lista2[1]}. Este es igual a 5.")
 elif lista2[1] != 5:
-    print(f"El segundo valor es: {lista2[1]}. Este es  menor a 5. Coordenada baja.")
+    print(f"El segundo valor es: {lista2[1]}. Este es menor a 5. Coordenada baja.")
 else:
     print("Dato incorrecto.")
 
@@ -385,16 +419,26 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [20]:\n ")
 
-tupla6 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: "))) 
-print("-------------------")
-tupla7 = (int(input("Ingrese un número: ")), int(input("Ingrese otro número: ")))
+# Se crean dos tuplas distintas, cada una con 2 números
+tupla6 = (
+    int(input("Ingrese un número: ")),
+    int(input("Ingrese otro número: "))
+)
 
+print("-------------------")
+
+tupla7 = (
+    int(input("Ingrese un número: ")),
+    int(input("Ingrese otro número: "))
+)
+
+# Se comparan las dos tuplas completas
 if tupla6 == tupla7:
     print(f"Los datos de las tuplas {tupla6} y {tupla7} son iguales.")
 elif tupla6 != tupla7:
     print(f"Los datos de las tuplas {tupla6} y {tupla7} son distintas.")
 else:
-    print("Dato inocrrecto.")    
+    print("Dato incorrecto.")
 
 print("\n------------------------------------------------------\n")
 
@@ -404,11 +448,17 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [21]:\n ")
 
-dic1 = {"Nombre": input("Ingresa tu nombre: ").capitalize(), "Edad": int(input("Ingresa tu edad: "))}
+# Se crea un diccionario con nombre y edad ingresados por el usuario
+dic1 = {
+    "Nombre": input("Ingresa tu nombre: ").capitalize(),
+    "Edad": int(input("Ingresa tu edad: "))
+}
+
+# Se evalúa si la edad es mayor o menor de 18
 if dic1["Edad"] >= 18:
-    print(f"{dic1["Nombre"]}, Tu edad es de {dic1["Edad"]} años. Eres adulto.")
-elif dic1["Edad"] <18:
-    print(f"{dic1["Nombre"]}, Tu edad es de {dic1["Edad"]} años. Eres menor de edad.")
+    print(f"{dic1['Nombre']}, Tu edad es de {dic1['Edad']} años. Eres adulto.")
+elif dic1["Edad"] < 18:
+    print(f"{dic1['Nombre']}, Tu edad es de {dic1['Edad']} años. Eres menor de edad.")
 else:
     print("Dato incorrecto.")
     
@@ -416,11 +466,19 @@ print("\n------------------------------------------------------")
 
 print("\nEJERCICIO N° [22]:\n ")
 
-dic2 = {"Nombre": input("Ingrese su nombre: ").capitalize(), "Edad": int(input("Ingrese su edad: "))}
+# Se crea un diccionario con nombre y edad
+dic2 = {
+    "Nombre": input("Ingrese su nombre: ").capitalize(),
+    "Edad": int(input("Ingrese su edad: "))
+}
+
+# Si la edad es mayor o igual a 18, se cambia a 21 automáticamente
 if dic2["Edad"] >= 18:
     dic2["Edad"] = 21
-    print(f"Eres mayor de edad, asi que tu edad ahora es 21.")
-print(f"los datos son: {dic2}.")
+    print("Eres mayor de edad, así que tu edad ahora es 21.")
+
+# Se imprimen los datos finales del diccionario
+print(f"Los datos son: {dic2}.")
 
 print("\n------------------------------------------------------")
 
