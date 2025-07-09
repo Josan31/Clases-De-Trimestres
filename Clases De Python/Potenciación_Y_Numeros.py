@@ -2,10 +2,10 @@
 
 # print("-------------- POTENCIACIÓN --------------")
 
-# La potenciación es una operación matemática que se utiliza para multiplicar un número por si mismo varias veces. 
-# Es una forma abreviada de realizar una multiplicación repetida, donde intervienen dos elementos que son: base y exponente. 
-# La base representa el número que se va a multiplicar, mientras que el exponente indica cuantas veces se debe multiplicar. 
-# Ejemplos: 3**2 = 3*3 = 9 | 2**6 = 2*2*2*2*2*2 = 12 | 4**2 = 4*4 = 16. 
+
+# La potenciación es una forma abreviada de multiplicar un número por sí mismo varias veces.
+# Intervienen dos elementos: base (número que se multiplica) y exponente (veces que se repite la multiplicación).
+# Ejemplos: 3**2 = 3*3 = 9 | 2**6 = 2*2*2*2*2*2 = 64 | 4**2 = 4*4 = 16
 
 
 # print("----- PROPIEDADES DE LA POTENCIACIÓN -----")
@@ -13,49 +13,53 @@
 
 # print("\n--> PRODUCTO DE POTENCIACIÓN CON LA MISMA BASE <--\n")
 
-# Cuando se multiplican dos potencias con la misma base, se conserva la base y se suman los exponentes, tal que así: 
-# a**m * a**n = a**(m+n). De ser el caso que las bases sean distintas se calcula cada potencia por separado. 
-# Ejemplos: 2**4 * 2**3 = 2**7 = 128 | 3**3 * 1**3 = 27*1 = 27 
 
+# Si se multiplican potencias con la misma base, se conserva la base y se suman los exponentes:
+# a**m * a**n = a**(m+n)
+# Si las bases son distintas, se calcula cada una por separado.
+# Ejemplos: 2**4 * 2**3 = 2**7 = 128 | 3**3 * 1**3 = 27 * 1 = 27
 
 # print("\n--> COSCIENTE DE POTENCIA DE LA MISMA BASE <--\n")
 
-# Cuando se dividen dos potencias que tienen la misma base, se conserva la base y se restan los exponentes. 
-# Tal que así: a**m / a**n = a**(m-n). Por el contrario, si las bases no son iguales, 
-# NO puedes restar los exponentes, Solo se resuelven por separado. 
-# Ejemplos: 10**4 / 10**1 = 10**(-3) = 1.000 | 6**2 / 5**2 = 36 / 25 = 1.44 
 
+# Al dividir potencias con la misma base, se conserva la base y se restan los exponentes:
+# a**m / a**n = a**(m-n)
+# Si las bases son diferentes, se resuelve cada potencia por separado.
+# Ejemplos: 10**4 / 10**1 = 10**3 = 1000 | 6**2 / 5**2 = 36 / 25 = 1.44
 
 # print("\n--> POTENCIA DE UNA POTENCIA <--\n")
 
-# Cuando una potencia se eleva a otra potencia, se mantienen las bases y se multiplican los exponentes. 
-# Tal que así: (a**m)**n = a**(m*n).Ejemplos: (3**2)**3 = 3**(2*3) = 3**6 = 729 | (5**2)**3 = 5**(2*3) = 5**6 = 15.625 
 
+# Cuando una potencia se eleva a otra, se multiplican los exponentes:
+# (a**m)**n = a**(m*n)
+# Ejemplos: (3**2)**3 = 3**6 = 729 | (5**2)**3 = 5**6 = 15,625
 
 # print("\n--> POTENCIA DE UN PRODUCTO <--\n")
 
-# Cuando un producto se eleva a una potencia, cada factor del producto se eleva al mismo esponente. 
-# Tal que así: (a*b)**c = a**c * b**c. Ejemplo: (2*3)**4 = 2**4 * 3**4 = 16*81 = 1,296. 
-# En caso de querer hacer el procedimiento mas corto, solo multiplicas 2*3 y lo elevas a la 4 tal que así: (2*3)**4 = 6**4 = 1,296 
 
-print("========================================")
-print("============ PYTHON CLASSES ============")
-print("========================================")
+# Al elevar un producto a una potencia, cada factor se eleva por separado:
+# (a*b)**c = a**c * b**c
+# Ejemplo: (2*3)**4 = 2**4 * 3**4 = 16 * 81 = 1,296
+# También puede resolverse directo: (2*3)**4 = 6**4 = 1,296
 
 print("\n-----> EJERCICIOS DE POTENCIACIÓN <-----\n")
 
+# Ejemplos de producto de potencias:
 print("[1] 2**3 * 3**4 = 8 * 81 = 648")
 print("[2] 5**5 * 5**2 = 5**7 = 78,125")
 print("[3] 10**1 * 10**3 = 10**4 = 10,000")
 
+# Ejemplos de potencia de un producto:
 print("[4] (2 * 1)**3 = 2**3 = 8")
 print("[5] (2 * 10)**3 = 20**3 = 8,000")
 print("[6] (3 * 4)**1 = 12**1 = 12")
 
+# Ejemplos de cociente de potencias con misma base:
 print("[7] 8**5 / 8**2 = 8**3 = 512")
 print("[8] 4**6 / 4**3 = 4**3 = 64")
 print("[9] 12**4 / 12**1 = 12**3 = 1,728")
 
+# Ejemplos de potencia de un cociente:
 print("[10] (6 / 2)**2 = 3**2 = 9")
 print("[11] (8 / 4)**2 = 2**2 = 4")
 print("[12] (5 / 3)**3 = (1.666...)**3 ≈ 4.63")
@@ -64,44 +68,61 @@ print("\n-----> RESOLUCIÓN DE 4 EJERCICIOS EN CÓDIGO <-----\n")
 
 print("\n[1]")
 
+# Se define la base y el exponente para 2³
 base2 = 2
 expo2 = 3
 
+# Se define la base y el exponente para 3⁴
 base3 = 3
 expo3 = 4
 
+# Se calcula 2³ = 8
 op1 = base2 ** expo2
+
+# Se calcula 3⁴ = 81
 op2 = base3 ** expo3
+
+# Se multiplican los resultados: 8 * 81 = 648
 result1 = op1 * op2 
 
-print("El resultado de 2³ x 3⁴ es:",result1)
+print("El resultado de 2³ x 3⁴ es:", result1)
 
 print("\n[2]")
 
+# Se definen dos factores para multiplicar: 2 y 10
 factor1 = 2
 factor2 = 10
 
+# Se multiplica primero: 2 * 10 = 20
 producto = factor1 * factor2 
+
+# Luego se eleva al cubo: 20³ = 8000
 result2 = producto ** 3 
 
-print("El resultado de (2 x 10)³ es:",result2)
+print("El resultado de (2 x 10)³ es:", result2)
 
 print("\n[3]")
 
+# Se define la base 8 y dos exponentes
 base8 = 8
 expo8 = 5
 expo2 = 2 
 
-result3 = base8 ** (expo8-expo2)
+# Se restan los exponentes (porque la base es la misma): 8**(5-2) = 8³ = 512
+result3 = base8 ** (expo8 - expo2)
 
-print("El resultado de 8⁵ / 8² es:",result3)
+print("El resultado de 8⁵ / 8² es:", result3)
 
 print("\n[4]")
 
+# Se definen dos números para hacer la división: 6 / 2 = 3
 factor3 = 6
 expon2 = 2
 
+# Se divide primero
 fraccion = factor3 / expon2
+
+# Luego se eleva al cuadrado: 3² = 9
 result4 = fraccion ** 2
 
 print(f"El resultado de (6/2)² es: {result4} \n")
