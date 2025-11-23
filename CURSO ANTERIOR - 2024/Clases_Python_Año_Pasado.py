@@ -778,6 +778,3 @@ elif convertir == 11:
         print("La versión es correcta")
     else:
         ("La versión no es correcta")
-
-    
-
