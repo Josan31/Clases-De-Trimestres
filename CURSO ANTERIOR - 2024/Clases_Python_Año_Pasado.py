@@ -378,10 +378,10 @@ resultado = num * 365
 
 print("\nEl año ingresado fue",num,"y en dias son: ",resultado)
 
-print(
+print("""
          *******************************
          ***SISTEMA DE MULTIPLICACIÓN***
-         *******************************  )
+         *******************************  """)
 
 Nombre = input("\nPor favor, ingrese su nombre: ")
 
@@ -394,10 +394,10 @@ operacion = result + 350
 
 print(Nombre,"\nSu resultado de la operacion fue de: ",operacion)
 
-print(
+print("""
          ********************************
          ******CALCULOS MATEMATICOS******
-         ********************************  )
+         ********************************  """)
 
 
 Nombre = input("\nPor favor, ingrese su nombre: ")
@@ -416,7 +416,7 @@ suma = resta + 5
 
 print(Nombre,"Su resultado de la operacion fue de: ",resultado)
 
-print(
+print("""
          *********************************
          *****SISTEMA DE CALIFICACIÓN*****
          *********************************
@@ -425,7 +425,7 @@ print(
 2.5 perdio el año
 3.0 paso pero asistir una semana de recuperacion
 3.5 pasaste
-4.5 felicitaciones  )
+4.5 felicitaciones  """)
 
 
 Nombre = input("\nPor favor, ingrese su nombre: ")
@@ -449,7 +449,7 @@ if edad >= 18:
 else:
     print("Eres menor de edad, lo sentimos")
 
-contraseña = input("Por favor, ingrese su contraseña: "))
+contraseña = input("Por favor, ingrese su contraseña: ")
 if contraseña == ("ABCT12"):
     print("La contraseña es correcta, bienvenido")
                  
@@ -457,10 +457,10 @@ else:
     print("Tu contraseña es incorrecta intentalo de nuevo")
 
 
-print(
+print("""
          *****************************************
          *********SISTEMA DE CALIFICACIÓN*********
-         *****************************************    )
+         *****************************************    """)
 
 
 Nombre = input("\nPor favor, ingrese su nombre: ")
@@ -480,10 +480,11 @@ else:
     print("El estudiante",Nombre,"Reprobo con un puntaje de: ",promedio)
 
 print("_" * 70)
-print(
+print("""
          ******************************************
          *********SENTENCIAS CONDICIONALES*********
-         ******************************************     )
+         ******************************************     """)
+         
 print("_" * 70)
 
 # Solicitar el nombre del usuario
@@ -581,7 +582,7 @@ else:
 
 print("_" * 70)
 
-print(""
+print("""
          *************************************
          **********SISTEMA DE CAMBIO**********
          *************************************
@@ -589,8 +590,7 @@ print(""
 1. Saludar
 2. Fecha actual
 3. numero de el 1 al 10
-4. Despedir
-"")
+4. Despedir """)
 
 nombre = input("Por favor, ingresa tu nombre")
 numero_1 = int(input("\nPor favor, ingrese una opcion: "))
@@ -608,10 +608,12 @@ else:
     
 print("_" * 70)
 
-print(
-         ***************************************
-         ********** SISTEMA DE CAMBIO **********
-         ***************************************
+print("""
+      
+            ***************************************
+            ********** SISTEMA DE CAMBIO **********
+            *************************************** 
+                                                        
 
 1. Convertir Dolar a Pesos Colombianos 
 2. Convertir Euros a Pesos Colombianos 
@@ -625,7 +627,7 @@ print(
 10. Convertir dias a años
 11. Poner la primera version de python
 
-12345)
+12345 """)
 
 print("_" * 70)
 
